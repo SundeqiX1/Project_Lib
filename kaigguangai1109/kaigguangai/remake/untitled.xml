@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+          <SubSystem>
+    <Name>PCI-1756</Name>
+    <xPCName>untitled/PCI-1756</xPCName>
+    
+                <block>
+            <blkName>PCI1</blkName>
+            <xpcblkName>PCI-1756/PCI1</xpcblkName>
+            <SLblockPath>untitled/PCI-1756/PCI1</SLblockPath>
+            <isSrc>[0 32 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI2</blkName>
+            <xpcblkName>PCI-1756/PCI2</xpcblkName>
+            <SLblockPath>untitled/PCI-1756/PCI2</SLblockPath>
+            <isSrc>[0 32 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI3</blkName>
+            <xpcblkName>PCI-1756/PCI3</xpcblkName>
+            <SLblockPath>untitled/PCI-1756/PCI3</SLblockPath>
+            <isSrc>[0 32 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion3</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion4</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion5</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion6</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion6</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI1/p1</sigName>
+              <xpcsigName>PCI-1756/PCI1/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI1/p2</sigName>
+              <xpcsigName>PCI-1756/PCI1/p2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI2/p1</sigName>
+              <xpcsigName>PCI-1756/PCI2/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI2/p2</sigName>
+              <xpcsigName>PCI-1756/PCI2/p2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI3/p1</sigName>
+              <xpcsigName>PCI-1756/PCI3/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI3/p2</sigName>
+              <xpcsigName>PCI-1756/PCI3/p2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Subsystem</Name>
+    <xPCName>untitled/Subsystem</xPCName>
+        <SubSystem>
+    <Name>Subsystem</Name>
+    <xPCName>untitled/Subsystem/Subsystem</xPCName>
+    
+    
+    </SubSystem>
+
+                <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Subsystem/Constant</xpcblkName>
+            <SLblockPath>untitled/Subsystem/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>Subsystem/Constant1</xpcblkName>
+            <SLblockPath>untitled/Subsystem/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Constant</sigName>
+              <xpcsigName>Subsystem/Constant</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Constant1</sigName>
+              <xpcsigName>Subsystem/Constant1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>xinhaofenzu</Name>
+    <xPCName>untitled/xinhaofenzu</xPCName>
+    
+    
+    </SubSystem>
+
+      
+</Root>

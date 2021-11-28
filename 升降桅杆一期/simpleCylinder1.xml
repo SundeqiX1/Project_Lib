@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <SubSystem>
+    <Name>DataSentHost</Name>
+        <SubSystem>
+    <Name>data tracing 1</Name>
+    
+    
+
+    </SubSystem>
+    <SubSystem>
+    <Name>data tracing 2</Name>
+    
+    
+
+    </SubSystem>
+
+    
+
+
+
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>DataSentHost/Constant1</xpcblkName>
+            <SLblockPath>simpleCylinder1/DataSentHost/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant2</blkName>
+            <xpcblkName>DataSentHost/Constant2</xpcblkName>
+            <SLblockPath>simpleCylinder1/DataSentHost/Constant2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant3</blkName>
+            <xpcblkName>DataSentHost/Constant3</xpcblkName>
+            <SLblockPath>simpleCylinder1/DataSentHost/Constant3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+
+
+            <block>
+            <blkName>Encoded_data</blkName>
+            <xpcblkName>DataSentHost/Encoded_data</xpcblkName>
+            <SLblockPath>simpleCylinder1/DataSentHost/Encoded_data</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>DataSentHost/Gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/DataSentHost/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+              <signal>
+              <sigName>Clock</sigName>
+              <xpcsigName>DataSentHost/Clock</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion15</sigName>
+              <xpcsigName>DataSentHost/Data Type Conversion15</xpcsigName>
+              <sigWidth>36</sigWidth>
+              <sigDim>[36,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion8</sigName>
+              <xpcsigName>DataSentHost/Data Type Conversion8</xpcsigName>
+              <sigWidth>36</sigWidth>
+              <sigDim>[36,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Encoded_data</sigName>
+              <xpcsigName>DataSentHost/Encoded_data</xpcsigName>
+              <sigWidth>10</sigWidth>
+              <sigDim>[10,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>DataSentHost/Gain</xpcsigName>
+              <sigWidth>36</sigWidth>
+              <sigDim>[36,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product</sigName>
+              <xpcsigName>DataSentHost/Product</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>DataSentHost/Product1</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Pack1</sigName>
+              <xpcsigName>DataSentHost/Pack1</xpcsigName>
+              <sigWidth>72</sigWidth>
+              <sigDim>[72,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>encoded data</sigName>
+              <xpcsigName>DataSentHost/encoded data</xpcsigName>
+              <sigWidth>9</sigWidth>
+              <sigDim>[9,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>DataSentHost/Sum2</xpcsigName>
+              <sigWidth>36</sigWidth>
+              <sigDim>[36,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Equal To
+Constant</Name>
+    
+    
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Equal To Constant/Constant</xpcblkName>
+            <SLblockPath>simpleCylinder1/Equal To Constant/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Equal To Constant/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Equal To
+Constant1</Name>
+    
+    
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Equal To Constant1/Constant</xpcblkName>
+            <SLblockPath>simpleCylinder1/Equal To Constant1/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+              <signal>
+              <sigName>Compare</sigName>
+              <xpcsigName>Equal To Constant1/Compare</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Manual Switch10</Name>
+    
+    
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Manual Switch10/Constant</xpcblkName>
+            <SLblockPath>simpleCylinder1/Manual Switch10/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>SwitchControl</blkName>
+            <xpcblkName>Manual Switch10/SwitchControl</xpcblkName>
+            <SLblockPath>simpleCylinder1/Manual Switch10/SwitchControl</SLblockPath>
+            <isSrc>[0 3 1]</isSrc>
+          <parameter>
+          <paramName>Threshold</paramName>
+          </parameter>
+          </block>
+              <signal>
+              <sigName>SwitchControl</sigName>
+              <xpcsigName>Manual Switch10/SwitchControl</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Manual Switch3</Name>
+    
+    
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Manual Switch3/Constant</xpcblkName>
+            <SLblockPath>simpleCylinder1/Manual Switch3/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>SwitchControl</blkName>
+            <xpcblkName>Manual Switch3/SwitchControl</xpcblkName>
+            <SLblockPath>simpleCylinder1/Manual Switch3/SwitchControl</SLblockPath>
+            <isSrc>[0 3 1]</isSrc>
+          <parameter>
+          <paramName>Threshold</paramName>
+          </parameter>
+          </block>
+              <signal>
+              <sigName>SwitchControl</sigName>
+              <xpcsigName>Manual Switch3/SwitchControl</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Nomal Motion Logic1</Name>
+    
+    
+
+
+
+
+
+
+
+            <block>
+            <blkName>fade_in_fade_out</blkName>
+            <xpcblkName>Nomal Motion Logic1/fade_in_fade_out</xpcblkName>
+            <SLblockPath>simpleCylinder1/Nomal Motion Logic1/fade_in_fade_out</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InputValues</paramName>
+          </parameter>
+          <parameter>
+          <paramName>OutputValues</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Memory</blkName>
+            <xpcblkName>Nomal Motion Logic1/Memory</xpcblkName>
+            <SLblockPath>simpleCylinder1/Nomal Motion Logic1/Memory</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Memory1</blkName>
+            <xpcblkName>Nomal Motion Logic1/Memory1</xpcblkName>
+            <SLblockPath>simpleCylinder1/Nomal Motion Logic1/Memory1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Ready Limiter</blkName>
+            <xpcblkName>Nomal Motion Logic1/Ready Limiter</xpcblkName>
+            <SLblockPath>simpleCylinder1/Nomal Motion Logic1/Ready Limiter</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>RisingSlewLimit</paramName>
+          </parameter>
+          <parameter>
+          <paramName>FallingSlewLimit</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Start Limiter</blkName>
+            <xpcblkName>Nomal Motion Logic1/Start Limiter</xpcblkName>
+            <SLblockPath>simpleCylinder1/Nomal Motion Logic1/Start Limiter</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>RisingSlewLimit</paramName>
+          </parameter>
+          <parameter>
+          <paramName>FallingSlewLimit</paramName>
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Control Logic/p1</sigName>
+              <xpcsigName>Nomal Motion Logic1/Control Logic/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Control Logic/p2</sigName>
+              <xpcsigName>Nomal Motion Logic1/Control Logic/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Control Logic/p3</sigName>
+              <xpcsigName>Nomal Motion Logic1/Control Logic/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Control Logic/p4</sigName>
+              <xpcsigName>Nomal Motion Logic1/Control Logic/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>Nomal Motion Logic1/Data Type Conversion</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Nomal Motion Logic1/Data Type Conversion1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Nomal Motion Logic1/Data Type Conversion2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>Nomal Motion Logic1/Data Type Conversion3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>Nomal Motion Logic1/Logical Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>OR1</sigName>
+              <xpcsigName>Nomal Motion Logic1/OR1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>fade_in_fade_out</sigName>
+              <xpcsigName>Nomal Motion Logic1/fade_in_fade_out</xpcsigName>
+              <sigWidth>3</sigWidth>
+              <sigDim>[3,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Memory</sigName>
+              <xpcsigName>Nomal Motion Logic1/Memory</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Memory1</sigName>
+              <xpcsigName>Nomal Motion Logic1/Memory1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Ready Limiter</sigName>
+              <xpcsigName>Nomal Motion Logic1/Ready Limiter</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Start Limiter</sigName>
+              <xpcsigName>Nomal Motion Logic1/Start Limiter</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Signal_generator</Name>
+        <SubSystem>
+    <Name>Enabled
+Subsystem1</Name>
+    
+    
+              <signal>
+              <sigName>In1</sigName>
+              <xpcsigName>Signal_generator/Enabled Subsystem1/In1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Enabled
+Subsystem2</Name>
+    
+    
+              <signal>
+              <sigName>In1</sigName>
+              <xpcsigName>Signal_generator/Enabled Subsystem2/In1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Subsystem</Name>
+    
+    
+
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>Signal_generator/Subsystem/Constant1</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Subsystem/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant3</blkName>
+            <xpcblkName>Signal_generator/Subsystem/Constant3</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Subsystem/Constant3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant4</blkName>
+            <xpcblkName>Signal_generator/Subsystem/Constant4</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Subsystem/Constant4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+
+
+            <block>
+            <blkName>Memory</blkName>
+            <xpcblkName>Signal_generator/Subsystem/Memory</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Subsystem/Memory</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Rate Limiter</blkName>
+            <xpcblkName>Signal_generator/Subsystem/Rate Limiter</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Subsystem/Rate Limiter</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>RisingSlewLimit</paramName>
+          </parameter>
+          <parameter>
+          <paramName>FallingSlewLimit</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+
+              <signal>
+              <sigName>Assignment1</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Assignment1</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Logical Operator1</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Logical Operator2</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Memory</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Memory</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Rate Limiter</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Rate Limiter</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Relational
+Operator</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Relational Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Rounding
+Function1</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Rounding Function1</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Subtract</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Subtract</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum of
+Elements</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Sum of Elements</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Switch</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Width</sigName>
+              <xpcsigName>Signal_generator/Subsystem/Width</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>chirp_enable</Name>
+    
+    
+            <block>
+            <blkName>sweep_mode</blkName>
+            <xpcblkName>Signal_generator/chirp_enable/sweep_mode</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/chirp_enable/sweep_mode</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Chirp_Gain</blkName>
+            <xpcblkName>Signal_generator/chirp_enable/Chirp_Gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/chirp_enable/Chirp_Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+              <signal>
+              <sigName>Chirp_Gain</sigName>
+              <xpcsigName>Signal_generator/chirp_enable/Chirp_Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch</sigName>
+              <xpcsigName>Signal_generator/chirp_enable/Multiport Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>random_filter</Name>
+    
+    
+            <block>
+            <blkName>scale_gain</blkName>
+            <xpcblkName>Signal_generator/random_filter/scale_gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/scale_gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>scale_gain1</blkName>
+            <xpcblkName>Signal_generator/random_filter/scale_gain1</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/scale_gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>scale_gain2</blkName>
+            <xpcblkName>Signal_generator/random_filter/scale_gain2</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/scale_gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>scale_gain3</blkName>
+            <xpcblkName>Signal_generator/random_filter/scale_gain3</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/scale_gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>scale_gain4</blkName>
+            <xpcblkName>Signal_generator/random_filter/scale_gain4</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/scale_gain4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>2-10</blkName>
+            <xpcblkName>Signal_generator/random_filter/2-10</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/2-10</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          </parameter>
+          <parameter>
+          <paramName>B</paramName>
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          </parameter>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>2-20</blkName>
+            <xpcblkName>Signal_generator/random_filter/2-20</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/2-20</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          </parameter>
+          <parameter>
+          <paramName>B</paramName>
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          </parameter>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>2-30</blkName>
+            <xpcblkName>Signal_generator/random_filter/2-30</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/2-30</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          </parameter>
+          <parameter>
+          <paramName>B</paramName>
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          </parameter>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>2-5</blkName>
+            <xpcblkName>Signal_generator/random_filter/2-5</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/2-5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          </parameter>
+          <parameter>
+          <paramName>B</paramName>
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          </parameter>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>2-60</blkName>
+            <xpcblkName>Signal_generator/random_filter/2-60</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_filter/2-60</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          </parameter>
+          <parameter>
+          <paramName>B</paramName>
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          </parameter>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+              <signal>
+              <sigName>scale_gain</sigName>
+              <xpcsigName>Signal_generator/random_filter/scale_gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>scale_gain1</sigName>
+              <xpcsigName>Signal_generator/random_filter/scale_gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>scale_gain2</sigName>
+              <xpcsigName>Signal_generator/random_filter/scale_gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>scale_gain3</sigName>
+              <xpcsigName>Signal_generator/random_filter/scale_gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>scale_gain4</sigName>
+              <xpcsigName>Signal_generator/random_filter/scale_gain4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2-10</sigName>
+              <xpcsigName>Signal_generator/random_filter/2-10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2-20</sigName>
+              <xpcsigName>Signal_generator/random_filter/2-20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2-30</sigName>
+              <xpcsigName>Signal_generator/random_filter/2-30</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2-5</sigName>
+              <xpcsigName>Signal_generator/random_filter/2-5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2-60</sigName>
+              <xpcsigName>Signal_generator/random_filter/2-60</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>sine</Name>
+    
+    
+
+
+            <block>
+            <blkName>Constant2</blkName>
+            <xpcblkName>Signal_generator/sine/Constant2</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/sine/Constant2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant3</blkName>
+            <xpcblkName>Signal_generator/sine/Constant3</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/sine/Constant3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>mod</blkName>
+            <xpcblkName>Signal_generator/sine/mod</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/sine/mod</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Signal_generator/sine/Gain1</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/sine/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>Signal_generator/sine/Gain2</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/sine/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+
+
+
+            <block>
+            <blkName>Memory</blkName>
+            <xpcblkName>Signal_generator/sine/Memory</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/sine/Memory</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+
+              <signal>
+              <sigName>Abs</sigName>
+              <xpcsigName>Signal_generator/sine/Abs</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Clock</sigName>
+              <xpcsigName>Signal_generator/sine/Clock</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Signal_generator/sine/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>Signal_generator/sine/Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>Signal_generator/sine/Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Math
+Function</sigName>
+              <xpcsigName>Signal_generator/sine/Math Function</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Math
+Function1</sigName>
+              <xpcsigName>Signal_generator/sine/Math Function1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Memory</sigName>
+              <xpcsigName>Signal_generator/sine/Memory</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>Signal_generator/sine/Product1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product2</sigName>
+              <xpcsigName>Signal_generator/sine/Product2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product3</sigName>
+              <xpcsigName>Signal_generator/sine/Product3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Relational
+Operator1</sigName>
+              <xpcsigName>Signal_generator/sine/Relational Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Relational
+Operator2</sigName>
+              <xpcsigName>Signal_generator/sine/Relational Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>Signal_generator/sine/Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>Signal_generator/sine/Sum2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum3</sigName>
+              <xpcsigName>Signal_generator/sine/Sum3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch</sigName>
+              <xpcsigName>Signal_generator/sine/Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Trigonometric
+Function</sigName>
+              <xpcsigName>Signal_generator/sine/Trigonometric Function</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>square</Name>
+    
+    
+
+            <block>
+            <blkName>Square Gain</blkName>
+            <xpcblkName>Signal_generator/square/Square Gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/square/Square Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+
+              <signal>
+              <sigName>Clock</sigName>
+              <xpcsigName>Signal_generator/square/Clock</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Square Gain</sigName>
+              <xpcsigName>Signal_generator/square/Square Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Math
+Function</sigName>
+              <xpcsigName>Signal_generator/square/Math Function</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product2</sigName>
+              <xpcsigName>Signal_generator/square/Product2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product4</sigName>
+              <xpcsigName>Signal_generator/square/Product4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sign</sigName>
+              <xpcsigName>Signal_generator/square/Sign</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>Signal_generator/square/Sum2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Trigonometric
+Function</sigName>
+              <xpcsigName>Signal_generator/square/Trigonometric Function</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+    
+
+
+
+
+
+
+
+            <block>
+            <blkName>Sin_bias</blkName>
+            <xpcblkName>Signal_generator/Sin_bias</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Sin_bias</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Sin_fuzhi</blkName>
+            <xpcblkName>Signal_generator/Sin_fuzhi</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Sin_fuzhi</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Sin_pinlv</blkName>
+            <xpcblkName>Signal_generator/Sin_pinlv</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Sin_pinlv</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Sin_xiangwei</blkName>
+            <xpcblkName>Signal_generator/Sin_xiangwei</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Sin_xiangwei</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Square_bias</blkName>
+            <xpcblkName>Signal_generator/Square_bias</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Square_bias</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Square_fuzhi</blkName>
+            <xpcblkName>Signal_generator/Square_fuzhi</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Square_fuzhi</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Square_zhouqi</blkName>
+            <xpcblkName>Signal_generator/Square_zhouqi</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Square_zhouqi</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>rand_freq_sel</blkName>
+            <xpcblkName>Signal_generator/rand_freq_sel</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/rand_freq_sel</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Signal_generator/Gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Signal_generator/Gain1</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>Signal_generator/Gain2</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain3</blkName>
+            <xpcblkName>Signal_generator/Gain3</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain4</blkName>
+            <xpcblkName>Signal_generator/Gain4</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain5</blkName>
+            <xpcblkName>Signal_generator/Gain5</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain6</blkName>
+            <xpcblkName>Signal_generator/Gain6</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/Gain6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>random_gain</blkName>
+            <xpcblkName>Signal_generator/random_gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random_gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+
+            <block>
+            <blkName>random</blkName>
+            <xpcblkName>Signal_generator/random</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal_generator/random</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Minimum</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Maximum</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Seed</paramName>
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>Signal_generator/Data Type Conversion</xpcsigName>
+              <sigWidth>5</sigWidth>
+              <sigDim>[5,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Signal_generator/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Signal_generator/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>Signal_generator/Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain3</sigName>
+              <xpcsigName>Signal_generator/Gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain4</sigName>
+              <xpcsigName>Signal_generator/Gain4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain5</sigName>
+              <xpcsigName>Signal_generator/Gain5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain6</sigName>
+              <xpcsigName>Signal_generator/Gain6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>random_gain</sigName>
+              <xpcsigName>Signal_generator/random_gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>AND</sigName>
+              <xpcsigName>Signal_generator/AND</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>Signal_generator/Product1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product4</sigName>
+              <xpcsigName>Signal_generator/Product4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product5</sigName>
+              <xpcsigName>Signal_generator/Product5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product6</sigName>
+              <xpcsigName>Signal_generator/Product6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product9</sigName>
+              <xpcsigName>Signal_generator/Product9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Selector7</sigName>
+              <xpcsigName>Signal_generator/Selector7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum2</sigName>
+              <xpcsigName>Signal_generator/Sum2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>random</sigName>
+              <xpcsigName>Signal_generator/random</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>pos_acc_sel</Name>
+    
+    
+            <block>
+            <blkName>internal_sig_acc_gain</blkName>
+            <xpcblkName>pos_acc_sel/internal_sig_acc_gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/pos_acc_sel/internal_sig_acc_gain</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>internal_sig_pos_gain</blkName>
+            <xpcblkName>pos_acc_sel/internal_sig_pos_gain</xpcblkName>
+            <SLblockPath>simpleCylinder1/pos_acc_sel/internal_sig_pos_gain</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>sel </blkName>
+            <xpcblkName>pos_acc_sel/sel </xpcblkName>
+            <SLblockPath>simpleCylinder1/pos_acc_sel/sel </SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Discrete inverse fit</blkName>
+            <xpcblkName>pos_acc_sel/Discrete inverse fit</xpcblkName>
+            <SLblockPath>simpleCylinder1/pos_acc_sel/Discrete inverse fit</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          </parameter>
+          <parameter>
+          <paramName>D</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+              <signal>
+              <sigName>Discrete inverse fit</sigName>
+              <xpcsigName>pos_acc_sel/Discrete inverse fit</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch</sigName>
+              <xpcsigName>pos_acc_sel/Multiport Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch1</sigName>
+              <xpcsigName>pos_acc_sel/Multiport Switch1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product</sigName>
+              <xpcsigName>pos_acc_sel/Product</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>pos_acc_sel/Product1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum1</sigName>
+              <xpcsigName>pos_acc_sel/Sum1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>zero_position_tune</Name>
+    
+    
+            <block>
+            <blkName>c</blkName>
+            <xpcblkName>zero_position_tune/c</xpcblkName>
+            <SLblockPath>simpleCylinder1/zero_position_tune/c</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>zero_position_tune/Gain1</xpcblkName>
+            <SLblockPath>simpleCylinder1/zero_position_tune/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>zero_position_tune/Gain2</xpcblkName>
+            <SLblockPath>simpleCylinder1/zero_position_tune/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+
+            <block>
+            <blkName>Saturation1</blkName>
+            <xpcblkName>zero_position_tune/Saturation1</xpcblkName>
+            <SLblockPath>simpleCylinder1/zero_position_tune/Saturation1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Saturation2</blkName>
+            <xpcblkName>zero_position_tune/Saturation2</xpcblkName>
+            <SLblockPath>simpleCylinder1/zero_position_tune/Saturation2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          </parameter>
+          </block>
+
+
+
+            <block>
+            <blkName>Unit Delay</blkName>
+            <xpcblkName>zero_position_tune/Unit Delay</xpcblkName>
+            <SLblockPath>simpleCylinder1/zero_position_tune/Unit Delay</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>zero_position_tune/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>zero_position_tune/Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Relational
+Operator</sigName>
+              <xpcsigName>zero_position_tune/Relational Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Saturation1</sigName>
+              <xpcsigName>zero_position_tune/Saturation1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Saturation2</sigName>
+              <xpcsigName>zero_position_tune/Saturation2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum11</sigName>
+              <xpcsigName>zero_position_tune/Sum11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch9</sigName>
+              <xpcsigName>zero_position_tune/Switch9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Unit Delay</sigName>
+              <xpcsigName>zero_position_tune/Unit Delay</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+
+
+
+
+
+
+
+
+
+
+            <block>
+            <blkName>Constant14</blkName>
+            <xpcblkName>Constant14</xpcblkName>
+            <SLblockPath>simpleCylinder1/Constant14</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant15</blkName>
+            <xpcblkName>Constant15</xpcblkName>
+            <SLblockPath>simpleCylinder1/Constant15</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant16</blkName>
+            <xpcblkName>Constant16</xpcblkName>
+            <SLblockPath>simpleCylinder1/Constant16</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant18</blkName>
+            <xpcblkName>Constant18</xpcblkName>
+            <SLblockPath>simpleCylinder1/Constant18</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Constant2</blkName>
+            <xpcblkName>Constant2</xpcblkName>
+            <SLblockPath>simpleCylinder1/Constant2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>a</blkName>
+            <xpcblkName>a</xpcblkName>
+            <SLblockPath>simpleCylinder1/a</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>constant11</blkName>
+            <xpcblkName>constant11</xpcblkName>
+            <SLblockPath>simpleCylinder1/constant11</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>constant12</blkName>
+            <xpcblkName>constant12</xpcblkName>
+            <SLblockPath>simpleCylinder1/constant12</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>standby_position</blkName>
+            <xpcblkName>standby_position</xpcblkName>
+            <SLblockPath>simpleCylinder1/standby_position</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>standby_position1</blkName>
+            <xpcblkName>standby_position1</xpcblkName>
+            <SLblockPath>simpleCylinder1/standby_position1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>standby_position3</blkName>
+            <xpcblkName>standby_position3</xpcblkName>
+            <SLblockPath>simpleCylinder1/standby_position3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>standby_position4</blkName>
+            <xpcblkName>standby_position4</xpcblkName>
+            <SLblockPath>simpleCylinder1/standby_position4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          </parameter>
+          </block>
+
+
+            <block>
+            <blkName>gain1</blkName>
+            <xpcblkName>gain1</xpcblkName>
+            <SLblockPath>simpleCylinder1/gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>gain2</blkName>
+            <xpcblkName>gain2</xpcblkName>
+            <SLblockPath>simpleCylinder1/gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>gain3</blkName>
+            <xpcblkName>gain3</xpcblkName>
+            <SLblockPath>simpleCylinder1/gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Integrator</blkName>
+            <xpcblkName>Integrator</xpcblkName>
+            <SLblockPath>simpleCylinder1/Integrator</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          </parameter>
+          </block>
+
+
+            <block>
+            <blkName>right7</blkName>
+            <xpcblkName>right7</xpcblkName>
+            <SLblockPath>simpleCylinder1/right7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InputValues</paramName>
+          </parameter>
+          <parameter>
+          <paramName>OutputValues</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+
+
+
+            <block>
+            <blkName>Saturation4</blkName>
+            <xpcblkName>Saturation4</xpcblkName>
+            <SLblockPath>simpleCylinder1/Saturation4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>DA2</blkName>
+            <xpcblkName>DA2</xpcblkName>
+            <SLblockPath>simpleCylinder1/DA2</SLblockPath>
+            <isSrc>[0 6 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>PCI-2</blkName>
+            <xpcblkName>PCI-2</xpcblkName>
+            <SLblockPath>simpleCylinder1/PCI-2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator10</blkName>
+            <xpcblkName>Signal Generator10</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator10</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator11</blkName>
+            <xpcblkName>Signal Generator11</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator11</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator12</blkName>
+            <xpcblkName>Signal Generator12</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator12</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator13</blkName>
+            <xpcblkName>Signal Generator13</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator13</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator14</blkName>
+            <xpcblkName>Signal Generator14</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator14</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator15</blkName>
+            <xpcblkName>Signal Generator15</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator15</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator16</blkName>
+            <xpcblkName>Signal Generator16</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator16</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator17</blkName>
+            <xpcblkName>Signal Generator17</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator17</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator2</blkName>
+            <xpcblkName>Signal Generator2</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator3</blkName>
+            <xpcblkName>Signal Generator3</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator4</blkName>
+            <xpcblkName>Signal Generator4</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator5</blkName>
+            <xpcblkName>Signal Generator5</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator6</blkName>
+            <xpcblkName>Signal Generator6</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator7</blkName>
+            <xpcblkName>Signal Generator7</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator8</blkName>
+            <xpcblkName>Signal Generator8</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+            <block>
+            <blkName>Signal
+Generator9</blkName>
+            <xpcblkName>Signal Generator9</xpcblkName>
+            <SLblockPath>simpleCylinder1/Signal Generator9</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Amplitude</paramName>
+          </parameter>
+          <parameter>
+          <paramName>Frequency</paramName>
+          </parameter>
+          </block>
+
+
+
+
+
+              <signal>
+              <sigName>Derivative</sigName>
+              <xpcsigName>Derivative</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>gain1</sigName>
+              <xpcsigName>gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>gain2</sigName>
+              <xpcsigName>gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>gain3</sigName>
+              <xpcsigName>gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Integrator</sigName>
+              <xpcsigName>Integrator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>right7</sigName>
+              <xpcsigName>right7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch</sigName>
+              <xpcsigName>Multiport Switch</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product</sigName>
+              <xpcsigName>Product</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>Product1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product3</sigName>
+              <xpcsigName>Product3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product4</sigName>
+              <xpcsigName>Product4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product5</sigName>
+              <xpcsigName>Product5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product6</sigName>
+              <xpcsigName>Product6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Saturation4</sigName>
+              <xpcsigName>Saturation4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI-2</sigName>
+              <xpcsigName>PCI-2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator10</sigName>
+              <xpcsigName>Signal Generator10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator11</sigName>
+              <xpcsigName>Signal Generator11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator12</sigName>
+              <xpcsigName>Signal Generator12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator13</sigName>
+              <xpcsigName>Signal Generator13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator14</sigName>
+              <xpcsigName>Signal Generator14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator15</sigName>
+              <xpcsigName>Signal Generator15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator16</sigName>
+              <xpcsigName>Signal Generator16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator17</sigName>
+              <xpcsigName>Signal Generator17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator2</sigName>
+              <xpcsigName>Signal Generator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator3</sigName>
+              <xpcsigName>Signal Generator3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator4</sigName>
+              <xpcsigName>Signal Generator4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator5</sigName>
+              <xpcsigName>Signal Generator5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator6</sigName>
+              <xpcsigName>Signal Generator6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator7</sigName>
+              <xpcsigName>Signal Generator7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator8</sigName>
+              <xpcsigName>Signal Generator8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Signal
+Generator9</sigName>
+              <xpcsigName>Signal Generator9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Add</sigName>
+              <xpcsigName>Add</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum5</sigName>
+              <xpcsigName>Sum5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum6</sigName>
+              <xpcsigName>Sum6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Sum7</sigName>
+              <xpcsigName>Sum7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1,1]</sigDim>
+            </signal>
+
+
+</Root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+        <SubSystem>
+    <Name>Scope (xPC) </Name>
+    <xPCName>bb2010/Scope (xPC) </xPCName>
+    
+    
+
+    </SubSystem>
+
+    
+
+ 
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Constant</xpcblkName>
+            <SLblockPath>bb2010/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>Data Type Conversion</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+</Root>

@@ -1,0 +1,17 @@
+#include "faren.bio"
+#include "faren.lbl"
+#include "faren.sid"
+
+
+const xpc_SigMappingInfo xpcMMI[] =
+  {
+    {
+      {faren_BIO},
+      {faren_SID},
+      {faren_LBL},
+      "",
+      "faren",
+      0,
+      46,
+    },
+  };

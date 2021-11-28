@@ -1,0 +1,234 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   36 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_active_c2_aaaqi"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_c2_aaaqi"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_fa4_4"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_4"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_4"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_4"\
+    }\
+    ChartData {\
+      Name         "is_fa4_2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_2"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_2"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_2"\
+    }\
+    ChartData {\
+      Name         "is_fa4_3"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_3"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_3"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_3"\
+    }\
+    ChartData {\
+      Name         "is_fa4_1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_1"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_1"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_1"\
+    }\
+    ChartData {\
+      Name         "is_fa4_5"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_5"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_5"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_5"\
+    }\
+    ChartData {\
+      Name         "is_fa4_6"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_6"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_6"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_6"\
+    }\
+    ChartData {\
+      Name         "is_fa4_8"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_8"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_8"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_8"\
+    }\
+    ChartData {\
+      Name         "is_fa4_7"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_7"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_7"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_7"\
+    }\
+    ChartData {\
+      Name         "is_fa4_9"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_9"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_9"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_9"\
+    }\
+    ChartData {\
+      Name         "is_fa4_10"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_10"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_10"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_10"\
+    }\
+    ChartData {\
+      Name         "is_fa4_12"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_12"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_12"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_12"\
+    }\
+    ChartData {\
+      Name         "is_fa4_11"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_11"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_11"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_11"\
+    }\
+    ChartData {\
+      Name         "is_fa4_13"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.fa4_13"\
+    }\
+    ChartData {\
+      Name         "is_active_fa4_13"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.fa4_13"\
+    }\
+    ChartData {\
+      Name         "is_kiagai"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.kiagai"\
+    }\
+    ChartData {\
+      Name         "is_active_kiagai"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.kiagai"\
+    }\
+    ChartData {\
+      Name         "is_yajin"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.yajin"\
+    }\
+    ChartData {\
+      Name         "is_active_yajin"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.yajin"\
+    }\
+    ChartData {\
+      Name         "is_kaigai"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.kaigai"\
+    }\
+    ChartData {\
+      Name         "is_active_kaigai"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.kaigai"\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

@@ -1,0 +1,240 @@
+PowerQuest PartitionInfo -- DOS engine edition.
+Date Generated: 03/01/2009 15:05:20
+
+CPU: "Int"
+CPU Vendor: "GenuineIntel"
+CPU Signature: 000006ec    CPU Features bfe9fbff
+
+
+****************************  CONFIG.SYS  ****************************
+
+device=c:\himem.sys
+
+***************************  AUTOEXEC.BAT  ***************************
+
+@SMARTDRV.exe
+
+****************************  END PREPEND  ***************************
+
+Running Program - C:\PQ\PQMAGIC.OVL
+
+BiosExtensions: 0x3000 Subsets (0x00000007): Access Lock/Eject EDD
+EGeo 0x00B7 125 255 63 2015232 0 512
+Extended BIOS calls not used
+
+============================================================================
+Disk 0:  125 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000007): Access Lock/Eject EDD
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0    1    1  0B   124  254   63          63    2015169
+Error #110: Number of sectors in partition is inconsistent.
+  ucSectors   = 2015169
+  end - begin = 2008062
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+EGeo 0x0001 16383 16 63 156301488 0 512
+Disk Geometry requires extended BIOS support
+
+============================================================================
+Disk 1:  9729 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0    1    1  07 [1023  254   63]         63   35166222 [Large Drive Placeholders]
+                      0    1    1      2188  254   63                         Actual Values
+         0 1 00   [1023    0    1] 0F [1023  254   63]   35166285  121130100 [Large Drive Placeholders]
+                   2189    0    1      9728  254   63                         Actual Values
+  35166285 0 00   [1023    1    1] 07 [1023  254   63]   35166348   39070017 [Large Drive Placeholders]
+                   2189    1    1      4620  254   63                         Actual Values
+  35166285 1 00   [1023    0    1] 05 [1023  254   63]   74236365   39070080 [Large Drive Placeholders]
+                   4621    0    1      7052  254   63                         Actual Values
+  74236365 0 00   [1023    1    1] 07 [1023  254   63]   74236428   39070017 [Large Drive Placeholders]
+                   4621    1    1      7052  254   63                         Actual Values
+  74236365 1 00   [1023    0    1] 05 [1023  254   63]  113306445   42989940 [Large Drive Placeholders]
+                   7053    0    1      9728  254   63                         Actual Values
+ 113306445 0 00   [1023    1    1] 07 [1023  254   63]  113306508   42989877 [Large Drive Placeholders]
+                   7053    1    1      9728  254   63                         Actual Values
+
+
+==================================================================================
+Disk 0:  980.5 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+              Type 00         Pri         980.5        110 0          0    2008125
+
+
+==================================================================================
+Disk 1:  76316.6 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+              NTFS            Pri,Boot  17171.0          0 0         63   35166222
+              ExtendedX       Pri       59145.6          0 1   35166285  121130100
+              EPBR            Log       19077.2       None -   35166285   39070080
+              NTFS            Log       19077.2   35166285 0   35166348   39070017
+              EPBR            Log       19077.2   35166285 1   74236365   39070080
+  ¡@¯Z        NTFS            Log       19077.2   74236365 0   74236428   39070017
+              EPBR            Log       20991.2   74236365 1  113306445   42989940
+  .           NTFS            Log       20991.2  113306445 0  113306508   42989877
+
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 63, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     35166221  (0x218980D)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 2197888  (0x218980)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0x3424BE9124BE5598
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 35166348, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     39070016  (0x2542940)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 2441876  (0x254294)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0x0CF41449F4143782
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 74236428, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     39070016  (0x2542940)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 2441876  (0x254294)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0xE43429DC3429B30A
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 113306508, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     42989876  (0x28FF934)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 2686867  (0x28FF93)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0xBE9832819832386B
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+}
+Exiting enStartEngine...  Return value: 0  Time = 0:04
+
+enInfo (*:) ...
+enInfo complete (pqRet == 4444)
+enInfo (*:) ...
+enInfo complete (pqRet == 4444)
+enInfo (*:) ...
+enInfo complete (pqRet == 4444)
+enInfo (*:) ...
+enInfo complete (pqRet == 4444)Entering enCheck(...)  ID:195  File:EnCheck.cpp  Line:56
+{
+Drive letter: (*:)
+pqLogLock (pqhandle == 4) ...
+pqLogLock complete (pqRet == 0)
+
+pqCheckFs (*:)  ...
+pqCheckNTRegAlignment
+
+pqCheckNTRegAlignment complete[RBOOT01]
+pqCheckFs complete (pqRet == 7)CPU Speed: 1746.4 MHz
+enCheck Stats
+Timing Data
+  NTFS OpenFrs   :      1      0.000
+  PhyRead        :      7      0.001
+    PhyRead Int13:      7      0.001
+  Section Total  :      1      0.022
+  Program Total  :      1     20.490
+Running Timers
+  Program Total  :      1
+pqLogUnlock (pqhandle == 4) ...
+pqLogUnlock complete (pqRet == 0)
+}
+Exiting enCheck...  Return value: 7  Time = 0:00
+
+enInfo (*:) ...
+enInfo complete (pqRet == 4444)Entering enStopEngine(...)  ID:193  File:Engine.cpp  Line:390
+{
+DbgMgr->Uninit

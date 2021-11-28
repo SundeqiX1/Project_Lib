@@ -1,0 +1,4198 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+          <SubSystem>
+    <Name>PCI-1756</Name>
+    <xPCName>kaiguangai/PCI-1756</xPCName>
+    
+                <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>PCI-1756/Constant</xpcblkName>
+            <SLblockPath>kaiguangai/PCI-1756/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>PCI-1756/Constant1</xpcblkName>
+            <SLblockPath>kaiguangai/PCI-1756/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI1</blkName>
+            <xpcblkName>PCI-1756/PCI1</xpcblkName>
+            <SLblockPath>kaiguangai/PCI-1756/PCI1</SLblockPath>
+            <isSrc>[0 32 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI2</blkName>
+            <xpcblkName>PCI-1756/PCI2</xpcblkName>
+            <SLblockPath>kaiguangai/PCI-1756/PCI2</SLblockPath>
+            <isSrc>[0 32 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI3</blkName>
+            <xpcblkName>PCI-1756/PCI3</xpcblkName>
+            <SLblockPath>kaiguangai/PCI-1756/PCI3</SLblockPath>
+            <isSrc>[0 32 2]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Constant</sigName>
+              <xpcsigName>PCI-1756/Constant</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Constant1</sigName>
+              <xpcsigName>PCI-1756/Constant1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion3</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion4</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion5</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion6</sigName>
+              <xpcsigName>PCI-1756/Data Type Conversion6</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI1/p1</sigName>
+              <xpcsigName>PCI-1756/PCI1/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI1/p2</sigName>
+              <xpcsigName>PCI-1756/PCI1/p2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI2/p1</sigName>
+              <xpcsigName>PCI-1756/PCI2/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI2/p2</sigName>
+              <xpcsigName>PCI-1756/PCI2/p2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI3/p1</sigName>
+              <xpcsigName>PCI-1756/PCI3/p1</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>PCI3/p2</sigName>
+              <xpcsigName>PCI-1756/PCI3/p2</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Scope </Name>
+    <xPCName>kaiguangai/Scope </xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Scope (xPC) 2</Name>
+    <xPCName>kaiguangai/Scope (xPC) 2</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Subsystem1</Name>
+    <xPCName>kaiguangai/Subsystem1</xPCName>
+        <SubSystem>
+    <Name>Scope (xPC) 1</Name>
+    <xPCName>kaiguangai/Subsystem1/Scope (xPC) 1</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinggaixuanze</Name>
+    <xPCName>kaiguangai/Subsystem1/jinggaixuanze</xPCName>
+    
+                <block>
+            <blkName>jinggai1</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai1</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai2</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai2</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai3</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai3</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai4</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai4</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai5</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai5</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai6</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai6</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai7</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai7</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jinggai8</blkName>
+            <xpcblkName>Subsystem1/jinggaixuanze/jinggai8</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/jinggaixuanze/jinggai8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>shoudong</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong</xPCName>
+        <SubSystem>
+    <Name>Chart</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart1</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart1</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart2</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart2</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart3</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart3</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart4</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart4</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart5</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart5</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart6</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart6</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart7</Name>
+    <xPCName>kaiguangai/Subsystem1/shoudong/Chart7</xPCName>
+    
+    
+    </SubSystem>
+
+                <block>
+            <blkName>songkaihuanxiang</blkName>
+            <xpcblkName>Subsystem1/shoudong/songkaihuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/shoudong/songkaihuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>kaigaihuanxiang</blkName>
+            <xpcblkName>Subsystem1/shoudong/kaigaihuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/shoudong/kaigaihuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>yajinhuanxiang</blkName>
+            <xpcblkName>Subsystem1/shoudong/yajinhuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/shoudong/yajinhuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>guangaihuanxiang</blkName>
+            <xpcblkName>Subsystem1/shoudong/guangaihuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/shoudong/guangaihuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Chart/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart1/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart2/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart2/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart3/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart3/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart4/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart4/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart5/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart5/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart6/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart6/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p4</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p11</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p12</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p13</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p14</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p15</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p16</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p17</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p18</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p19</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart7/p20</sigName>
+              <xpcsigName>Subsystem1/shoudong/Chart7/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion1</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion10</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion10</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion2</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion5</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion6</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion6</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion7</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion7</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion8</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion8</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion9</sigName>
+              <xpcsigName>Subsystem1/shoudong/Data Type Conversion9</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>Subsystem1/shoudong/Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>Subsystem1/shoudong/Logical Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>Subsystem1/shoudong/Logical Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator3</sigName>
+              <xpcsigName>Subsystem1/shoudong/Logical Operator3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>zidong</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong</xPCName>
+        <SubSystem>
+    <Name>1#</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#1</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#1</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#2</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#2</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#3</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#3</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#4</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#4</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#5</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#5</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#6</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#6</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>1#7</Name>
+    <xPCName>kaiguangai/Subsystem1/zidong/1#7</xPCName>
+    
+    
+    </SubSystem>
+
+                <block>
+            <blkName>songkaihuanxiang</blkName>
+            <xpcblkName>Subsystem1/zidong/songkaihuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/zidong/songkaihuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>kaigaihuanxiang</blkName>
+            <xpcblkName>Subsystem1/zidong/kaigaihuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/zidong/kaigaihuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>yajinhuanxiang</blkName>
+            <xpcblkName>Subsystem1/zidong/yajinhuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/zidong/yajinhuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>guangaihuanxiang</blkName>
+            <xpcblkName>Subsystem1/zidong/guangaihuanxiang</xpcblkName>
+            <SLblockPath>kaiguangai/Subsystem1/zidong/guangaihuanxiang</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>1#/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#1/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#1/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#2/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#2/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#3/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#3/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#4/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#4/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#5/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#5/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#6/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#6/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p1</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p2</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p3</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p4</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p5</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p6</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p7</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p8</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p9</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p10</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p11</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p12</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p13</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p14</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p15</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p16</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p17</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p17</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p18</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p18</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p19</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p19</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p20</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p20</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1#7/p21</sigName>
+              <xpcsigName>Subsystem1/zidong/1#7/p21</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion1</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion2</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion3</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion4</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion5</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion6</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion6</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion7</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion7</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion8</sigName>
+              <xpcsigName>Subsystem1/zidong/Data Type Conversion8</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator10</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator11</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator3</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator4</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator5</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator6</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator7</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator8</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator9</sigName>
+              <xpcsigName>Subsystem1/zidong/Logical Operator9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart</Name>
+    <xPCName>kaiguangai/Subsystem1/Chart</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>Chart1</Name>
+    <xPCName>kaiguangai/Subsystem1/Chart1</xPCName>
+    
+    
+    </SubSystem>
+
+                  <signal>
+              <sigName>Chart</sigName>
+              <xpcsigName>Subsystem1/Chart</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Chart1</sigName>
+              <xpcsigName>Subsystem1/Chart1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Subsystem1/Data Type Conversion1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Subsystem1/Data Type Conversion2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>Subsystem1/Data Type Conversion4</xpcsigName>
+              <sigWidth>32</sigWidth>
+              <sigDim>[32, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion6</sigName>
+              <xpcsigName>Subsystem1/Data Type Conversion6</xpcsigName>
+              <sigWidth>8</sigWidth>
+              <sigDim>[8, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>Subsystem1/Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>Subsystem1/Logical Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>Subsystem1/Logical Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator3</sigName>
+              <xpcsigName>Subsystem1/Logical Operator3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator4</sigName>
+              <xpcsigName>Subsystem1/Logical Operator4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator5</sigName>
+              <xpcsigName>Subsystem1/Logical Operator5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch</sigName>
+              <xpcsigName>Subsystem1/Multiport Switch</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch1</sigName>
+              <xpcsigName>Subsystem1/Multiport Switch1</xpcsigName>
+              <sigWidth>32</sigWidth>
+              <sigDim>[32, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch2</sigName>
+              <xpcsigName>Subsystem1/Multiport Switch2</xpcsigName>
+              <sigWidth>48</sigWidth>
+              <sigDim>[48, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>shoudongcaozuo</Name>
+    <xPCName>kaiguangai/shoudongcaozuo</xPCName>
+        <SubSystem>
+    <Name>husuo</Name>
+    <xPCName>kaiguangai/shoudongcaozuo/husuo</xPCName>
+    
+                <block>
+            <blkName>Constant12</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/Constant12</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/Constant12</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant13</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/Constant13</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/Constant13</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant16</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/Constant16</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/Constant16</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant17</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/Constant17</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/Constant17</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant18</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/Constant18</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/Constant18</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant19</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/Constant19</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/Constant19</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>1</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/1</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>2</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/2</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>3</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/3</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>4</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/4</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>5</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/5</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>6</blkName>
+            <xpcblkName>shoudongcaozuo/husuo/6</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/husuo/6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Logical Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Logical Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator3</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Logical Operator3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator4</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Logical Operator4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator5</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Logical Operator5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator6</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Logical Operator6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>3</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>4</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>5</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>6</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch1</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Switch1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch2</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Switch2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch3</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Switch3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch4</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Switch4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch5</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Switch5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch6</sigName>
+              <xpcsigName>shoudongcaozuo/husuo/Switch6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+                <block>
+            <blkName>guangai</blkName>
+            <xpcblkName>shoudongcaozuo/guangai</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/guangai</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jiesuo</blkName>
+            <xpcblkName>shoudongcaozuo/jiesuo</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/jiesuo</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>kaigai</blkName>
+            <xpcblkName>shoudongcaozuo/kaigai</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/kaigai</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s1</blkName>
+            <xpcblkName>shoudongcaozuo/s1</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s2</blkName>
+            <xpcblkName>shoudongcaozuo/s2</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s3</blkName>
+            <xpcblkName>shoudongcaozuo/s3</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s4</blkName>
+            <xpcblkName>shoudongcaozuo/s4</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s5</blkName>
+            <xpcblkName>shoudongcaozuo/s5</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s6</blkName>
+            <xpcblkName>shoudongcaozuo/s6</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s7</blkName>
+            <xpcblkName>shoudongcaozuo/s7</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s8</blkName>
+            <xpcblkName>shoudongcaozuo/s8</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/s8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>songkai</blkName>
+            <xpcblkName>shoudongcaozuo/songkai</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/songkai</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>suoding</blkName>
+            <xpcblkName>shoudongcaozuo/suoding</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/suoding</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>yajin</blkName>
+            <xpcblkName>shoudongcaozuo/yajin</xpcblkName>
+            <SLblockPath>kaiguangai/shoudongcaozuo/yajin</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Product</sigName>
+              <xpcsigName>shoudongcaozuo/Product</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>shoudongcaozuo/Product1</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product2</sigName>
+              <xpcsigName>shoudongcaozuo/Product2</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product3</sigName>
+              <xpcsigName>shoudongcaozuo/Product3</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product4</sigName>
+              <xpcsigName>shoudongcaozuo/Product4</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product5</sigName>
+              <xpcsigName>shoudongcaozuo/Product5</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product6</sigName>
+              <xpcsigName>shoudongcaozuo/Product6</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product7</sigName>
+              <xpcsigName>shoudongcaozuo/Product7</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>tiaoshidongzuo</Name>
+    <xPCName>kaiguangai/tiaoshidongzuo</xPCName>
+        <SubSystem>
+    <Name>husuo</Name>
+    <xPCName>kaiguangai/tiaoshidongzuo/husuo</xPCName>
+    
+                <block>
+            <blkName>Constant12</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/Constant12</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/Constant12</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant13</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/Constant13</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/Constant13</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant16</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/Constant16</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/Constant16</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant17</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/Constant17</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/Constant17</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant18</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/Constant18</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/Constant18</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant19</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/Constant19</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/Constant19</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>1</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/1</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>2</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/2</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>3</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/3</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>4</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/4</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>5</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/5</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>6</blkName>
+            <xpcblkName>tiaoshidongzuo/husuo/6</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/husuo/6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Logical Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator2</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Logical Operator2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator3</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Logical Operator3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator4</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Logical Operator4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator5</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Logical Operator5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator6</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Logical Operator6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>1</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>2</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>3</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>4</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>5</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>6</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch1</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Switch1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch2</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Switch2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch3</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Switch3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch4</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Switch4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch5</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Switch5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch6</sigName>
+              <xpcsigName>tiaoshidongzuo/husuo/Switch6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+
+                <block>
+            <blkName>guangai</blkName>
+            <xpcblkName>tiaoshidongzuo/guangai</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/guangai</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jiesuo</blkName>
+            <xpcblkName>tiaoshidongzuo/jiesuo</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/jiesuo</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>kaigai</blkName>
+            <xpcblkName>tiaoshidongzuo/kaigai</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/kaigai</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s1</blkName>
+            <xpcblkName>tiaoshidongzuo/s1</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s2</blkName>
+            <xpcblkName>tiaoshidongzuo/s2</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s3</blkName>
+            <xpcblkName>tiaoshidongzuo/s3</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s4</blkName>
+            <xpcblkName>tiaoshidongzuo/s4</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s5</blkName>
+            <xpcblkName>tiaoshidongzuo/s5</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s6</blkName>
+            <xpcblkName>tiaoshidongzuo/s6</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s7</blkName>
+            <xpcblkName>tiaoshidongzuo/s7</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s8</blkName>
+            <xpcblkName>tiaoshidongzuo/s8</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/s8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>songkai</blkName>
+            <xpcblkName>tiaoshidongzuo/songkai</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/songkai</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>suoding</blkName>
+            <xpcblkName>tiaoshidongzuo/suoding</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/suoding</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>yajin</blkName>
+            <xpcblkName>tiaoshidongzuo/yajin</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshidongzuo/yajin</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>Product</sigName>
+              <xpcsigName>tiaoshidongzuo/Product</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product1</sigName>
+              <xpcsigName>tiaoshidongzuo/Product1</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product2</sigName>
+              <xpcsigName>tiaoshidongzuo/Product2</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product3</sigName>
+              <xpcsigName>tiaoshidongzuo/Product3</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product4</sigName>
+              <xpcsigName>tiaoshidongzuo/Product4</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product5</sigName>
+              <xpcsigName>tiaoshidongzuo/Product5</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product6</sigName>
+              <xpcsigName>tiaoshidongzuo/Product6</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Product7</sigName>
+              <xpcsigName>tiaoshidongzuo/Product7</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>tiaoshimoshi</Name>
+    <xPCName>kaiguangai/tiaoshimoshi</xPCName>
+        <SubSystem>
+    <Name>jinjichuli</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli1</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli1</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli2</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli2</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli3</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli3</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli4</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli4</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli5</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli5</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli6</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli6</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>jinjichuli7</Name>
+    <xPCName>kaiguangai/tiaoshimoshi/jinjichuli7</xPCName>
+    
+    
+    </SubSystem>
+
+                <block>
+            <blkName>tiaoshi_huanxiangxinhao</blkName>
+            <xpcblkName>tiaoshimoshi/tiaoshi_huanxiangxinhao</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshimoshi/tiaoshi_huanxiangxinhao</SLblockPath>
+            <isSrc>[0 1 0]</isSrc>
+          <parameter>
+          <paramName>InitialOutput</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>jinjichuli/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli1/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli1/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli1/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli1/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli1/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli1/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli1/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli2/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli2/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli2/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli2/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli2/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli2/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli2/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli2/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli3/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli3/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli3/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli3/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli3/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli3/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli3/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli3/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli4/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli4/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli4/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli4/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli4/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli4/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli4/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli4/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli5/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli5/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli5/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli5/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli5/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli5/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli5/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli5/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli6/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli6/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli6/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli6/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli6/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli6/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli6/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli6/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli7/p1</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli7/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli7/p2</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli7/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli7/p3</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli7/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>jinjichuli7/p4</sigName>
+              <xpcsigName>tiaoshimoshi/jinjichuli7/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator</sigName>
+              <xpcsigName>tiaoshimoshi/Logical Operator</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator1</sigName>
+              <xpcsigName>tiaoshimoshi/Logical Operator1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator4</sigName>
+              <xpcsigName>tiaoshimoshi/Logical Operator4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Logical
+Operator5</sigName>
+              <xpcsigName>tiaoshimoshi/Logical Operator5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+    </SubSystem>
+    <SubSystem>
+    <Name>xinhaofenzu</Name>
+    <xPCName>kaiguangai/xinhaofenzu</xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>zidong_jiangeshijian</Name>
+    <xPCName>kaiguangai/zidong_jiangeshijian</xPCName>
+    
+                <block>
+            <blkName>t1</blkName>
+            <xpcblkName>zidong_jiangeshijian/t1</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_jiangeshijian/t1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>t11</blkName>
+            <xpcblkName>zidong_jiangeshijian/t11</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_jiangeshijian/t11</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>t3</blkName>
+            <xpcblkName>zidong_jiangeshijian/t3</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_jiangeshijian/t3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>t5</blkName>
+            <xpcblkName>zidong_jiangeshijian/t5</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_jiangeshijian/t5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>t7</blkName>
+            <xpcblkName>zidong_jiangeshijian/t7</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_jiangeshijian/t7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>t9</blkName>
+            <xpcblkName>zidong_jiangeshijian/t9</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_jiangeshijian/t9</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>t1</sigName>
+              <xpcsigName>zidong_jiangeshijian/t1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>松开至开盖的间隔时间</sigLabel>
+            </signal>
+              <signal>
+              <sigName>t11</sigName>
+              <xpcsigName>zidong_jiangeshijian/t11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>压紧至松开的间隔时间</sigLabel>
+            </signal>
+              <signal>
+              <sigName>t3</sigName>
+              <xpcsigName>zidong_jiangeshijian/t3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>开盖至锁定的间隔时间</sigLabel>
+            </signal>
+              <signal>
+              <sigName>t5</sigName>
+              <xpcsigName>zidong_jiangeshijian/t5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>锁定至解锁的间隔时间</sigLabel>
+            </signal>
+              <signal>
+              <sigName>t7</sigName>
+              <xpcsigName>zidong_jiangeshijian/t7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>解锁至关盖的间隔时间</sigLabel>
+            </signal>
+              <signal>
+              <sigName>t9</sigName>
+              <xpcsigName>zidong_jiangeshijian/t9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+                <sigLabel>关盖至压紧的间隔时间</sigLabel>
+            </signal>
+
+    </SubSystem>
+
+                  <block>
+            <blkName>Switch</blkName>
+            <xpcblkName>Switch</xpcblkName>
+            <SLblockPath>kaiguangai/Switch</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Switch1</blkName>
+            <xpcblkName>Switch1</xpcblkName>
+            <SLblockPath>kaiguangai/Switch1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Switch2</blkName>
+            <xpcblkName>Switch2</xpcblkName>
+            <SLblockPath>kaiguangai/Switch2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>jieshu</blkName>
+            <xpcblkName>jieshu</xpcblkName>
+            <SLblockPath>kaiguangai/jieshu</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>qiehuan</blkName>
+            <xpcblkName>qiehuan</xpcblkName>
+            <SLblockPath>kaiguangai/qiehuan</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>start</blkName>
+            <xpcblkName>start</xpcblkName>
+            <SLblockPath>kaiguangai/start</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>tiaoshi</blkName>
+            <xpcblkName>tiaoshi</xpcblkName>
+            <SLblockPath>kaiguangai/tiaoshi</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>zidong_shedingcishu</blkName>
+            <xpcblkName>zidong_shedingcishu</xpcblkName>
+            <SLblockPath>kaiguangai/zidong_shedingcishu</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>memory</blkName>
+            <xpcblkName>memory</xpcblkName>
+            <SLblockPath>kaiguangai/memory</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>memory1</blkName>
+            <xpcblkName>memory1</xpcblkName>
+            <SLblockPath>kaiguangai/memory1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Switch3</blkName>
+            <xpcblkName>Switch3</xpcblkName>
+            <SLblockPath>kaiguangai/Switch3</SLblockPath>
+            <isSrc>[0 3 1]</isSrc>
+          <parameter>
+          <paramName>Threshold</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>jieshu</sigName>
+              <xpcsigName>jieshu</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>start</sigName>
+              <xpcsigName>start</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>tiaoshi</sigName>
+              <xpcsigName>tiaoshi</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>zidong_shedingcishu</sigName>
+              <xpcsigName>zidong_shedingcishu</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion</sigName>
+              <xpcsigName>Data Type Conversion</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Data Type Conversion1</xpcsigName>
+              <sigWidth>10</sigWidth>
+              <sigDim>[10, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Data Type Conversion2</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>memory</sigName>
+              <xpcsigName>memory</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>memory1</sigName>
+              <xpcsigName>memory1</xpcsigName>
+              <sigWidth>32</sigWidth>
+              <sigDim>[32, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch</sigName>
+              <xpcsigName>Multiport Switch</xpcsigName>
+              <sigWidth>6</sigWidth>
+              <sigDim>[6, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch1</sigName>
+              <xpcsigName>Multiport Switch1</xpcsigName>
+              <sigWidth>10</sigWidth>
+              <sigDim>[10, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Multiport
+Switch2</sigName>
+              <xpcsigName>Multiport Switch2</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Switch3</sigName>
+              <xpcsigName>Switch3</xpcsigName>
+              <sigWidth>4</sigWidth>
+              <sigDim>[4, 1]</sigDim>
+            </signal>
+
+</Root>

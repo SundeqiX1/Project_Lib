@@ -1,0 +1,11 @@
+制作前需安装matlab和vc
+第一步：制作dos启动盘
+     ghost32→local—disk-from image→usb.gho,选择u盘，还原
+第二步：修改u盘盘符为A,在我的电脑，右击管理，选磁盘管理里面修改（貌似可以不用修改）
+第三步：在目标机中设置bios，advanced bios features中hard disk boot priority中将usb选项通过page up和page down移到第一；然后设置first boot device为hard disk，在此基础上测试u盘dos启动是否成功；
+第四步：在matlab中运行xpcexplr，设置好compiler configuration和communication，然后在configuration中将target boot mode设为dosloader，点击create bootdisk，在u盘中生成xpc target文件，其中需要将config.sys文件用任意一个名称替换。
+enjoy！
+
+
+matlab2012版本的xpc系统，需要在命令窗口设置编译器，xpcsetCC('C:\Program Files\Microsoft Visual Studio 10.0')，其余步骤与上述类似。
+

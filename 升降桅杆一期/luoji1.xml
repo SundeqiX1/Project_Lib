@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<SubSystem>
+		<Name>Chart</Name>
+		<xPCName>luoji1/Chart</xPCName>
+	</SubSystem>
+	<block>
+		<blkName>Constant</blkName>
+		<xpcblkName>Constant</xpcblkName>
+		<SLblockPath>luoji1/Constant</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant1</blkName>
+		<xpcblkName>Constant1</xpcblkName>
+		<SLblockPath>luoji1/Constant1</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant2</blkName>
+		<xpcblkName>Constant2</xpcblkName>
+		<SLblockPath>luoji1/Constant2</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant3</blkName>
+		<xpcblkName>Constant3</xpcblkName>
+		<SLblockPath>luoji1/Constant3</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant4</blkName>
+		<xpcblkName>Constant4</xpcblkName>
+		<SLblockPath>luoji1/Constant4</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant5</blkName>
+		<xpcblkName>Constant5</xpcblkName>
+		<SLblockPath>luoji1/Constant5</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant6</blkName>
+		<xpcblkName>Constant6</xpcblkName>
+		<SLblockPath>luoji1/Constant6</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<signal>
+		<sigName>Chart/p1</sigName>
+		<xpcsigName>Chart/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Chart/p2</sigName>
+		<xpcsigName>Chart/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Chart/p3</sigName>
+		<xpcsigName>Chart/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Chart/p4</sigName>
+		<xpcsigName>Chart/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Chart/p5</sigName>
+		<xpcsigName>Chart/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Chart/p6</sigName>
+		<xpcsigName>Chart/p6</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Chart/p7</sigName>
+		<xpcsigName>Chart/p7</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant</sigName>
+		<xpcsigName>Constant</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant1</sigName>
+		<xpcsigName>Constant1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant2</sigName>
+		<xpcsigName>Constant2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant3</sigName>
+		<xpcsigName>Constant3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant4</sigName>
+		<xpcsigName>Constant4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant5</sigName>
+		<xpcsigName>Constant5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Constant6</sigName>
+		<xpcsigName>Constant6</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+</Root>

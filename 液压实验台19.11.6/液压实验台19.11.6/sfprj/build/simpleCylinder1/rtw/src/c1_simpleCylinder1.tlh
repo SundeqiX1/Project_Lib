@@ -1,0 +1,37 @@
+
+%implements "chartHeader" "C"
+%function CacheOutputs(block,system,typeDefHFile,hFile,cFile) void
+%openfile typedefsBuf
+   
+   typedef struct {
+uint8_T is_active_c1_simpleCylinder1;
+uint8_T is_active_ready_mode;
+uint8_T is_active_run_mode;
+uint8_T is_ready_mode;
+uint8_T is_run_mode;
+} %<SFInfo.ChartInstanceTypedef>;
+
+   
+%closefile typedefsBuf
+   %if !WHITE_SPACE(typedefsBuf)
+      %openfile tempBuf
+#ifndef _CSC1_SIMPLECYLINDER1_CHARTSTRUC_
+#define _CSC1_SIMPLECYLINDER1_CHARTSTRUC_
+      %<typedefsBuf>\
+ #endif /* _CSC1_SIMPLECYLINDER1_CHARTSTRUC_ */
+      %closefile tempBuf
+%<SLibSetModelFileAttribute(typeDefHFile,"Typedefs",tempBuf)>
+   %endif
+
+%openfile externFcnsBuf
+   
+   
+   
+   
+%closefile externFcnsBuf
+%<SLibSetModelFileAttribute(hFile,"ExternFcns",externFcnsBuf)>
+   %openfile externFcnsBuf
+   %closefile externFcnsBuf
+   %<SLibSetModelFileAttribute(hFile,"ExternFcns",externFcnsBuf)>
+
+%endfunction %% CacheOutputs

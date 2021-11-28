@@ -1,0 +1,184 @@
+PowerQuest PartitionInfo -- DOS engine edition.
+Date Generated: 12/17/2008 13:03:04
+
+CPU: "Int"
+CPU Vendor: "GenuineIntel"
+CPU Signature: 000006fd    CPU Features bfebfbff
+
+
+****************************  CONFIG.SYS  ****************************
+
+device=c:\himem.sys
+
+****************************  END PREPEND  ***************************
+
+Running Program - C:\PQ\PQMAGIC.OVL
+
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+EGeo 0x0006 122 255 63 1974271 0 512
+Extended BIOS calls not used
+
+============================================================================
+Disk 0:  122 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0    1    1  0B   972   31   63          63    1961505
+Error #109: Partition ends after end of disk.
+  ucEndCylinder (972) must be less than 122.
+Error #108: Partition didn't end on cylinder boundary.
+  ucEndHead expected to be 254, not 31.
+Error #110: Number of sectors in partition is inconsistent.
+  ucSectors   = 1961505
+  end - begin = 15617133
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+EGeo 0x0000 16383 16 63 156301488 0 512
+Disk Geometry requires extended BIOS support
+
+============================================================================
+Disk 1:  9729 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0    1    1  07 [1023  254   63]         63   53898012 [Large Drive Placeholders]
+                      0    1    1      3354  254   63                         Actual Values
+         0 1 00   [1023    0    1] 0F [1023  254   63]   53898075  102398310 [Large Drive Placeholders]
+                   3355    0    1      9728  254   63                         Actual Values
+  53898075 0 00   [1023    1    1] 07 [1023  254   63]   53898138   61448562 [Large Drive Placeholders]
+                   3355    1    1      7179  254   63                         Actual Values
+  53898075 1 00   [1023    0    1] 05 [1023  254   63]  115346700   40949685 [Large Drive Placeholders]
+                   7180    0    1      9728  254   63                         Actual Values
+ 115346700 0 00   [1023    1    1] 07 [1023  254   63]  115346763   40949622 [Large Drive Placeholders]
+                   7180    1    1      9728  254   63                         Actual Values
+
+
+==================================================================================
+Disk 0:  957.0 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+              Type 00         Pri         957.0        108 0          0    1959930
+
+
+==================================================================================
+Disk 1:  76316.6 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+  WINXP       NTFS            Pri,Boot  26317.4          0 0         63   53898012
+              ExtendedX       Pri       49999.2          0 1   53898075  102398310
+              EPBR            Log       30004.2       None -   53898075   61448625
+  ?¥ó         NTFS            Log       30004.2   53898075 0   53898138   61448562
+              EPBR            Log       19995.0   53898075 1  115346700   40949685
+  ?®Æ         NTFS            Log       19994.9  115346700 0  115346763   40949622
+
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 63, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     53898011  (0x3366B1B)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 16  (0x10)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0x52A01BD2A01BBC03
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 53898138, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     61448561  (0x3A9A171)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 16  (0x10)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0xB400E7A900E77132
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+
+========================================================================
+Boot Sector for drive *: Drive 2, Starting Sector: 115346763, Type: NTFS
+========================================================================
+1. Jump:                    EB 52 90
+2. OEM Name:                NTFS    
+3. Bytes Per Sector:        512
+4. Sectors Per Cluster:     8
+5. Reserved Sectors:        0
+6. Number of FAT's:         0
+7. Root Dir Entries:        0
+8. Total Sectors:           0  (0x0)
+9. Media Descriptor:        0xF8
+10. Sectors Per FAT:        0
+11. Sectors Per Track:      63  (0x3F)
+12. Number of Heads:        255  (0xFF)
+13. Hidden Sectors:         63  (0x3F)
+14. Big Total Sectors:      0  (0x0)
+15. Unused:                 0x80 00 80 00
+16. Total NTFS Sectors:     40949621  (0x270D775)
+17. MFT Start Cluster:      786432  (0xC0000)
+18. MFT Mirror Start Clust: 16  (0x10)
+19. Clusters per FRS:       246
+20. Size per Index Buffer: 1
+21. Serial Number:          0x8ABC63F7BC63DC67
+22. Checksum:               0x00000000
+23. Boot Signature:         0xAA55
+
+}
+Exiting enStartEngine...  Return value: 0  Time = 0:04
+CalcMinSotf: Minimum allowable resize = 7422512 sectors
+CalcMinSotf: Number of sectors to relocate in a minimum resize = 1126496
+
+enInfo (*:) ...
+enInfo complete (pqRet == 0)CalcMinSotf: Minimum allowable resize = 38534816 sectors
+CalcMinSotf: Number of sectors to relocate in a minimum resize = 1149720
+
+enInfo (*:) ...
+enInfo complete (pqRet == 0)CalcMinSotf: Minimum allowable resize = 29906432 sectors
+CalcMinSotf: Number of sectors to relocate in a minimum resize = 4830352
+
+enInfo (*:) ...
+enInfo complete (pqRet == 0)Entering enStopEngine(...)  ID:193  File:Engine.cpp  Line:390
+{
+DbgMgr->Uninit

@@ -1,0 +1,151 @@
+PowerQuest PartitionInfo -- DOS engine edition.
+Date Generated: 12/13/2008 10:10:28
+
+CPU: "Int"
+CPU Vendor: "GenuineIntel"
+CPU Signature: 00010676    CPU Features bfebfbff
+
+
+****************************  CONFIG.SYS  ****************************
+
+device=c:\himem.sys
+
+****************************  END PREPEND  ***************************
+
+Running Program - C:\PQ\PQMAGIC.OVL
+
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+EGeo 0x0006 122 255 63 1974271 0 512
+Extended BIOS calls not used
+
+============================================================================
+Disk 0:  122 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000005): Access EDD
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0    1    1  0B   972   31   63          63    1961505
+Error #109: Partition ends after end of disk.
+  ucEndCylinder (972) must be less than 122.
+Error #108: Partition didn't end on cylinder boundary.
+  ucEndHead expected to be 254, not 31.
+Error #110: Number of sectors in partition is inconsistent.
+  ucSectors   = 1961505
+  end - begin = 15617133
+BiosExtensions: 0x3000 Subsets (0x00000001): Access 
+EGeo 0x0000 16383 16 63 1250263728 0 512
+Disk Geometry requires extended BIOS support
+
+============================================================================
+Disk 1:  77825 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000001): Access 
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0    1    1  07 [1023  254   63]         63   62428527 [Large Drive Placeholders]
+                      0    1    1      3885  254   63                         Actual Values
+         0 1 00   [1023  254   63] 0F [1023  254   63]   62428590 1187830035 [Large Drive Placeholders]
+                   3886    0    1     12288  254   63                         Actual Values
+Error #110: Number of sectors in partition is inconsistent.
+  ucSectors   = 1187830035
+  end - begin = 134994195
+BiosExtensions: 0x3000 Subsets (0x00000001): Access 
+EGeo 0x0000 16383 16 63 312581808 0 512
+Disk Geometry requires extended BIOS support
+
+============================================================================
+Disk 2:  19457 Cylinders, 255 Heads, 63 Sectors/Track.
+BiosExtensions: 0x3000 Subsets (0x00000001): Access 
+The BIOS supports INT 13h extensions for this drive.
+============================ Partition Tables ==============================
+Partition          -----Begin----      ------End-----     Start     Num
+Sector     # Boot   Cyl Head Sect  FS   Cyl Head Sect     Sect      Sects
+---------- - ----  ---- ---- ----  --  ---- ---- ----  ---------- ----------
+         0 0 80       0   32   33  07 [1023   45   58]       2048   51200000 [Large Drive Placeholders]
+                      0   32   33      3187   45   58                         Actual Values
+Error #105: Partition didn't begin on head boundary.
+ucBeginHead expected to be 0 or 1, not 32.
+Error #106: Partition didn't begin on head boundary.
+  ucBeginSector expected to be 1, not 33.
+Error #108: Partition didn't end on cylinder boundary.
+  ucEndHead expected to be 254, not 45.
+Error #108: Partition didn't end on cylinder boundary.
+  ucEndSector expected to be 63, not 58.
+
+
+==================================================================================
+Disk 0:  957.0 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+              Type 00         Pri         957.0        108 0          0    1959930
+
+
+==================================================================================
+Disk 1:  610477.8 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+              Type 00         Pri      610477.8        110 0          0 1250258625
+
+
+==================================================================================
+Disk 2:  152625.3 Megabytes
+============================= Partition Information ==============================
+Volume        Partition                         Partition        Start     Total
+Letter:Label  Type            Status   Size MB  Sector     #     Sector    Sectors
+------------- --------------- -------- -------- ---------- - ---------- ----------
+              Type 00         Pri      152625.3        105 0          0  312576705
+
+
+}
+Exiting enStartEngine...  Return value: 0  Time = 0:10
+pqFileDelete - File: C:\PQ\PQ_BATCH.005. Result == 504
+DOS_FILE::Rename: pqRet = 504
+[Error]: errno = 1. No such file or directory
+pqFileDelete - File: C:\PQ\PQ_BATCH.004. Result == 504
+DOS_FILE::Rename: pqRet = 504
+[Error]: errno = 1. No such file or directory
+pqFileDelete - File: C:\PQ\PQ_BATCH.003. Result == 504
+DOS_FILE::Rename: pqRet = 504
+[Error]: errno = 1. No such file or directory
+pqFileDelete - File: C:\PQ\PQ_BATCH.002. Result == 504
+DOS_FILE::Rename: pqRet = 504
+[Error]: errno = 1. No such file or directory
+pqFileDelete - File: C:\PQ\PQ_BATCH.001. Result == 504
+DOS_FILE::Rename: pqRet = 504
+[Error]: errno = 1. No such file or directory
+Batch File - C:\PQ\PQ_BATCH.PQB
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+	Begin Batch Execution ...
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+	Beginning Execution of batch operation 1 of 1 ...
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+正在格式化分割磁區： *: 
+  (BADMBR, 主要的磁區, 152625.3 MB 在磁碟 3上)  
+    新的標籤及類型：  (NTFS)
+
+enFormat (*) ...
+enFormat complete (pqRet == 4)
+ExecuteList: Error 4 executing operation 1 of 1
+TagBatchFileProcessed ... Error 4 executing operation 1 of 1
+TagBatchFileProcessed ... SWITCH_WRB is not set
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+	End Batch Execution (pqRet == 4)
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+Entering enStopEngine(...)  ID:193  File:Engine.cpp  Line:390
+{
+DbgMgr->Uninit

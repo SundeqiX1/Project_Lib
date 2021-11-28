@@ -1,0 +1,84 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   11 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_active_c5_aaa"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_c5_aaa"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_zidong"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong"\
+    }\
+    ChartData {\
+      Name         "t"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "t"\
+    }\
+    ChartData {\
+      Name         "t2"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "t2"\
+    }\
+    ChartData {\
+      Name         "t4"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "t4"\
+    }\
+    ChartData {\
+      Name         "t6"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "t6"\
+    }\
+    ChartData {\
+      Name         "t8"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "t8"\
+    }\
+    ChartData {\
+      Name         "t10"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "t10"\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      
+                  <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Constant</xpcblkName>
+            <SLblockPath>pci1756a/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>Constant1</xpcblkName>
+            <SLblockPath>pci1756a/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant10</blkName>
+            <xpcblkName>Constant10</xpcblkName>
+            <SLblockPath>pci1756a/Constant10</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant11</blkName>
+            <xpcblkName>Constant11</xpcblkName>
+            <SLblockPath>pci1756a/Constant11</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant12</blkName>
+            <xpcblkName>Constant12</xpcblkName>
+            <SLblockPath>pci1756a/Constant12</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant13</blkName>
+            <xpcblkName>Constant13</xpcblkName>
+            <SLblockPath>pci1756a/Constant13</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant14</blkName>
+            <xpcblkName>Constant14</xpcblkName>
+            <SLblockPath>pci1756a/Constant14</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant15</blkName>
+            <xpcblkName>Constant15</xpcblkName>
+            <SLblockPath>pci1756a/Constant15</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant16</blkName>
+            <xpcblkName>Constant16</xpcblkName>
+            <SLblockPath>pci1756a/Constant16</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant17</blkName>
+            <xpcblkName>Constant17</xpcblkName>
+            <SLblockPath>pci1756a/Constant17</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant18</blkName>
+            <xpcblkName>Constant18</xpcblkName>
+            <SLblockPath>pci1756a/Constant18</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant19</blkName>
+            <xpcblkName>Constant19</xpcblkName>
+            <SLblockPath>pci1756a/Constant19</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant2</blkName>
+            <xpcblkName>Constant2</xpcblkName>
+            <SLblockPath>pci1756a/Constant2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant20</blkName>
+            <xpcblkName>Constant20</xpcblkName>
+            <SLblockPath>pci1756a/Constant20</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant21</blkName>
+            <xpcblkName>Constant21</xpcblkName>
+            <SLblockPath>pci1756a/Constant21</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant22</blkName>
+            <xpcblkName>Constant22</xpcblkName>
+            <SLblockPath>pci1756a/Constant22</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant23</blkName>
+            <xpcblkName>Constant23</xpcblkName>
+            <SLblockPath>pci1756a/Constant23</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant24</blkName>
+            <xpcblkName>Constant24</xpcblkName>
+            <SLblockPath>pci1756a/Constant24</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant25</blkName>
+            <xpcblkName>Constant25</xpcblkName>
+            <SLblockPath>pci1756a/Constant25</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant26</blkName>
+            <xpcblkName>Constant26</xpcblkName>
+            <SLblockPath>pci1756a/Constant26</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant27</blkName>
+            <xpcblkName>Constant27</xpcblkName>
+            <SLblockPath>pci1756a/Constant27</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant28</blkName>
+            <xpcblkName>Constant28</xpcblkName>
+            <SLblockPath>pci1756a/Constant28</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant29</blkName>
+            <xpcblkName>Constant29</xpcblkName>
+            <SLblockPath>pci1756a/Constant29</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant3</blkName>
+            <xpcblkName>Constant3</xpcblkName>
+            <SLblockPath>pci1756a/Constant3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant30</blkName>
+            <xpcblkName>Constant30</xpcblkName>
+            <SLblockPath>pci1756a/Constant30</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant31</blkName>
+            <xpcblkName>Constant31</xpcblkName>
+            <SLblockPath>pci1756a/Constant31</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant4</blkName>
+            <xpcblkName>Constant4</xpcblkName>
+            <SLblockPath>pci1756a/Constant4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant5</blkName>
+            <xpcblkName>Constant5</xpcblkName>
+            <SLblockPath>pci1756a/Constant5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant6</blkName>
+            <xpcblkName>Constant6</xpcblkName>
+            <SLblockPath>pci1756a/Constant6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant7</blkName>
+            <xpcblkName>Constant7</xpcblkName>
+            <SLblockPath>pci1756a/Constant7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant8</blkName>
+            <xpcblkName>Constant8</xpcblkName>
+            <SLblockPath>pci1756a/Constant8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant9</blkName>
+            <xpcblkName>Constant9</xpcblkName>
+            <SLblockPath>pci1756a/Constant9</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>PCI1</blkName>
+            <xpcblkName>PCI1</xpcblkName>
+            <SLblockPath>pci1756a/PCI1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>PCI1</sigName>
+              <xpcsigName>PCI1</xpcsigName>
+              <sigWidth>32</sigWidth>
+              <sigDim>[32, 1]</sigDim>
+            </signal>
+
+</Root>

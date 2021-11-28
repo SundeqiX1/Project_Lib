@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<SubSystem>
+		<Name>Manual Switch2</Name>
+		<xPCName>untitled2/Manual Switch2</xPCName>
+		<block>
+			<blkName>Constant</blkName>
+			<xpcblkName>Manual Switch2/Constant</xpcblkName>
+			<SLblockPath>untitled2/Manual Switch2/Constant</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>SwitchControl</blkName>
+			<xpcblkName>Manual Switch2/SwitchControl</xpcblkName>
+			<SLblockPath>untitled2/Manual Switch2/SwitchControl</SLblockPath>
+			<isSrc>[0 3 1]</isSrc>
+			<parameter>
+				<paramName>Threshold</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>SwitchControl</sigName>
+			<xpcsigName>Manual Switch2/SwitchControl</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem1</Name>
+		<xPCName>untitled2/Subsystem1</xPCName>
+		<block>
+			<blkName>Integer Delay</blkName>
+			<xpcblkName>Subsystem1/Integer Delay</xpcblkName>
+			<SLblockPath>untitled2/Subsystem1/Integer Delay</SLblockPath>
+			<isSrc>[0 1 1]</isSrc>
+			<parameter>
+				<paramName>InitialCondition</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Relational
+Operator</sigName>
+			<xpcsigName>Subsystem1/Relational Operator</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Integer Delay</sigName>
+			<xpcsigName>Subsystem1/Integer Delay</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<block>
+		<blkName>constant3</blkName>
+		<xpcblkName>constant3</xpcblkName>
+		<SLblockPath>untitled2/constant3</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>constant5</blkName>
+		<xpcblkName>constant5</xpcblkName>
+		<SLblockPath>untitled2/constant5</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>constant7</blkName>
+		<xpcblkName>constant7</xpcblkName>
+		<SLblockPath>untitled2/constant7</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>xuanzhuany</blkName>
+		<xpcblkName>xuanzhuany</xpcblkName>
+		<SLblockPath>untitled2/xuanzhuany</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>xuanzhuany1</blkName>
+		<xpcblkName>xuanzhuany1</xpcblkName>
+		<SLblockPath>untitled2/xuanzhuany1</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Setup </blkName>
+		<xpcblkName>Setup </xpcblkName>
+		<SLblockPath>untitled2/Setup </SLblockPath>
+		<isSrc>[0 0 0]</isSrc>
+		<parameter>
+			<paramName>P1</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P2</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P5</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P6</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P13</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P15</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P16</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P17</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P18</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P19</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P20</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P21</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P22</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P23</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P24</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<signal>
+		<sigName>Data Type Conversion10</sigName>
+		<xpcsigName>Data Type Conversion10</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion11</sigName>
+		<xpcsigName>Data Type Conversion11</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion8</sigName>
+		<xpcsigName>Data Type Conversion8</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion9</sigName>
+		<xpcsigName>Data Type Conversion9</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>xuanzhuana</sigName>
+		<xpcsigName>xuanzhuana</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Multiport
+Switch3</sigName>
+		<xpcsigName>Multiport Switch3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive 1/p1</sigName>
+		<xpcsigName>3402Receive 1/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive 1/p2</sigName>
+		<xpcsigName>3402Receive 1/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive 1/p3</sigName>
+		<xpcsigName>3402Receive 1/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive 1/p4</sigName>
+		<xpcsigName>3402Receive 1/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-packing 1</sigName>
+		<xpcsigName>CAN bit-packing 1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-packing 7</sigName>
+		<xpcsigName>CAN bit-packing 7</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+</Root>

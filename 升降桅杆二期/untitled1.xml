@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<SubSystem>
+		<Name>Scope (xPC) </Name>
+		<xPCName>untitled1/Scope (xPC) </xPCName>
+	</SubSystem>
+	<SubSystem>
+		<Name>Scope (xPC) 1</Name>
+		<xPCName>untitled1/Scope (xPC) 1</xPCName>
+	</SubSystem>
+	<block>
+		<blkName>Constant</blkName>
+		<xpcblkName>Constant</xpcblkName>
+		<SLblockPath>untitled1/Constant</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant1</blkName>
+		<xpcblkName>Constant1</xpcblkName>
+		<SLblockPath>untitled1/Constant1</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant2</blkName>
+		<xpcblkName>Constant2</xpcblkName>
+		<SLblockPath>untitled1/Constant2</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant3</blkName>
+		<xpcblkName>Constant3</xpcblkName>
+		<SLblockPath>untitled1/Constant3</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant4</blkName>
+		<xpcblkName>Constant4</xpcblkName>
+		<SLblockPath>untitled1/Constant4</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant5</blkName>
+		<xpcblkName>Constant5</xpcblkName>
+		<SLblockPath>untitled1/Constant5</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant6</blkName>
+		<xpcblkName>Constant6</xpcblkName>
+		<SLblockPath>untitled1/Constant6</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant7</blkName>
+		<xpcblkName>Constant7</xpcblkName>
+		<SLblockPath>untitled1/Constant7</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant8</blkName>
+		<xpcblkName>Constant8</xpcblkName>
+		<SLblockPath>untitled1/Constant8</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<signal>
+		<sigName>Data Type Conversion</sigName>
+		<xpcsigName>Data Type Conversion</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion1</sigName>
+		<xpcsigName>Data Type Conversion1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion2</sigName>
+		<xpcsigName>Data Type Conversion2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion3</sigName>
+		<xpcsigName>Data Type Conversion3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion4</sigName>
+		<xpcsigName>Data Type Conversion4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion5</sigName>
+		<xpcsigName>Data Type Conversion5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion6</sigName>
+		<xpcsigName>Data Type Conversion6</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion7</sigName>
+		<xpcsigName>Data Type Conversion7</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>phase</sigName>
+		<xpcsigName>phase</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>position</sigName>
+		<xpcsigName>position</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>position2</sigName>
+		<xpcsigName>position2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Serial Receive</sigName>
+		<xpcsigName>Serial Receive</xpcsigName>
+		<sigWidth>2</sigWidth>
+		<sigDim>[1, 2]</sigDim>
+	</signal>
+</Root>

@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<SubSystem>
+		<Name>255_15shineng</Name>
+		<xPCName>canceshi/255_15shineng</xPCName>
+		<SubSystem>
+			<Name>Manual Switch</Name>
+			<xPCName>canceshi/255_15shineng/Manual Switch</xPCName>
+			<block>
+				<blkName>Constant</blkName>
+				<xpcblkName>255_15shineng/Manual Switch/Constant</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/Manual Switch/Constant</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>SwitchControl</blkName>
+				<xpcblkName>255_15shineng/Manual Switch/SwitchControl</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/Manual Switch/SwitchControl</SLblockPath>
+				<isSrc>[0 3 1]</isSrc>
+				<parameter>
+					<paramName>Threshold</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>SwitchControl</sigName>
+				<xpcsigName>255_15shineng/Manual Switch/SwitchControl</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<SubSystem>
+			<Name>Manual Switch1</Name>
+			<xPCName>canceshi/255_15shineng/Manual Switch1</xPCName>
+			<block>
+				<blkName>Constant</blkName>
+				<xpcblkName>255_15shineng/Manual Switch1/Constant</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/Manual Switch1/Constant</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>SwitchControl</blkName>
+				<xpcblkName>255_15shineng/Manual Switch1/SwitchControl</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/Manual Switch1/SwitchControl</SLblockPath>
+				<isSrc>[0 3 1]</isSrc>
+				<parameter>
+					<paramName>Threshold</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>SwitchControl</sigName>
+				<xpcsigName>255_15shineng/Manual Switch1/SwitchControl</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<SubSystem>
+			<Name>jihuo</Name>
+			<xPCName>canceshi/255_15shineng/jihuo</xPCName>
+			<block>
+				<blkName>Constant17</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant17</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant17</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant18</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant18</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant18</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant19</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant19</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant19</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant20</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant20</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant20</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant21</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant21</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant21</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant22</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant22</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant22</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant23</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant23</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant23</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant24</blkName>
+				<xpcblkName>255_15shineng/jihuo/Constant24</xpcblkName>
+				<SLblockPath>canceshi/255_15shineng/jihuo/Constant24</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>Data Type Conversion17</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion17</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion18</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion18</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion19</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion19</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion20</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion20</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion21</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion21</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion22</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion22</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion23</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion23</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>Data Type Conversion24</sigName>
+				<xpcsigName>255_15shineng/jihuo/Data Type Conversion24</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+			<signal>
+				<sigName>CAN bit-packing 3</sigName>
+				<xpcsigName>255_15shineng/jihuo/CAN bit-packing 3</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<block>
+			<blkName>Constant1</blkName>
+			<xpcblkName>255_15shineng/Constant1</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant1</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant10</blkName>
+			<xpcblkName>255_15shineng/Constant10</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant10</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant11</blkName>
+			<xpcblkName>255_15shineng/Constant11</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant11</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant12</blkName>
+			<xpcblkName>255_15shineng/Constant12</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant12</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant13</blkName>
+			<xpcblkName>255_15shineng/Constant13</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant13</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant14</blkName>
+			<xpcblkName>255_15shineng/Constant14</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant14</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant15</blkName>
+			<xpcblkName>255_15shineng/Constant15</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant15</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant16</blkName>
+			<xpcblkName>255_15shineng/Constant16</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant16</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant2</blkName>
+			<xpcblkName>255_15shineng/Constant2</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant3</blkName>
+			<xpcblkName>255_15shineng/Constant3</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant3</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant4</blkName>
+			<xpcblkName>255_15shineng/Constant4</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant4</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant5</blkName>
+			<xpcblkName>255_15shineng/Constant5</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant5</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant6</blkName>
+			<xpcblkName>255_15shineng/Constant6</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant6</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant7</blkName>
+			<xpcblkName>255_15shineng/Constant7</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant7</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant8</blkName>
+			<xpcblkName>255_15shineng/Constant8</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant8</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant9</blkName>
+			<xpcblkName>255_15shineng/Constant9</xpcblkName>
+			<SLblockPath>canceshi/255_15shineng/Constant9</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion10</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion10</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion11</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion11</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion12</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion12</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion13</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion13</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion14</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion14</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion15</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion15</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion16</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion16</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion4</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion4</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion5</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion5</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion6</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion6</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion8</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion8</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion9</sigName>
+			<xpcsigName>255_15shineng/Data Type Conversion9</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 1</sigName>
+			<xpcsigName>255_15shineng/CAN bit-packing 1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 2</sigName>
+			<xpcsigName>255_15shineng/CAN bit-packing 2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>255shineng</Name>
+		<xPCName>canceshi/255shineng</xPCName>
+		<block>
+			<blkName>Constant1</blkName>
+			<xpcblkName>255shineng/Constant1</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant1</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant16</blkName>
+			<xpcblkName>255shineng/Constant16</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant16</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant2</blkName>
+			<xpcblkName>255shineng/Constant2</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant3</blkName>
+			<xpcblkName>255shineng/Constant3</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant3</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant4</blkName>
+			<xpcblkName>255shineng/Constant4</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant4</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant5</blkName>
+			<xpcblkName>255shineng/Constant5</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant5</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant6</blkName>
+			<xpcblkName>255shineng/Constant6</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant6</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant7</blkName>
+			<xpcblkName>255shineng/Constant7</xpcblkName>
+			<SLblockPath>canceshi/255shineng/Constant7</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>255shineng/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion16</sigName>
+			<xpcsigName>255shineng/Data Type Conversion16</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>255shineng/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>255shineng/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion4</sigName>
+			<xpcsigName>255shineng/Data Type Conversion4</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion5</sigName>
+			<xpcsigName>255shineng/Data Type Conversion5</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion6</sigName>
+			<xpcsigName>255shineng/Data Type Conversion6</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>255shineng/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 2</sigName>
+			<xpcsigName>255shineng/CAN bit-packing 2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Manual Switch</Name>
+		<xPCName>canceshi/Manual Switch</xPCName>
+		<block>
+			<blkName>Constant</blkName>
+			<xpcblkName>Manual Switch/Constant</xpcblkName>
+			<SLblockPath>canceshi/Manual Switch/Constant</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>SwitchControl</blkName>
+			<xpcblkName>Manual Switch/SwitchControl</xpcblkName>
+			<SLblockPath>canceshi/Manual Switch/SwitchControl</SLblockPath>
+			<isSrc>[0 3 1]</isSrc>
+			<parameter>
+				<paramName>Threshold</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>SwitchControl</sigName>
+			<xpcsigName>Manual Switch/SwitchControl</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem</Name>
+		<xPCName>canceshi/Subsystem</xPCName>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>Subsystem/constant2</xpcblkName>
+			<SLblockPath>canceshi/Subsystem/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Memory</blkName>
+			<xpcblkName>Subsystem/Memory</xpcblkName>
+			<SLblockPath>canceshi/Subsystem/Memory</SLblockPath>
+			<isSrc>[0 1 1]</isSrc>
+			<parameter>
+				<paramName>X0</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Memory</sigName>
+			<xpcsigName>Subsystem/Memory</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Relational
+Operator</sigName>
+			<xpcsigName>Subsystem/Relational Operator</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Subtract</sigName>
+			<xpcsigName>Subsystem/Subtract</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem1</Name>
+		<xPCName>canceshi/Subsystem1</xPCName>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>Subsystem1/constant2</xpcblkName>
+			<SLblockPath>canceshi/Subsystem1/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Memory</blkName>
+			<xpcblkName>Subsystem1/Memory</xpcblkName>
+			<SLblockPath>canceshi/Subsystem1/Memory</SLblockPath>
+			<isSrc>[0 1 1]</isSrc>
+			<parameter>
+				<paramName>X0</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Memory</sigName>
+			<xpcsigName>Subsystem1/Memory</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Relational
+Operator</sigName>
+			<xpcsigName>Subsystem1/Relational Operator</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Subtract</sigName>
+			<xpcsigName>Subsystem1/Subtract</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem2</Name>
+		<xPCName>canceshi/Subsystem2</xPCName>
+		<SubSystem>
+			<Name>Subsystem</Name>
+			<xPCName>canceshi/Subsystem2/Subsystem</xPCName>
+			<block>
+				<blkName>Constant1</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant1</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant1</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant28</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant28</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant28</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant29</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant29</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant29</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant30</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant30</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant30</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant31</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant31</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant31</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant32</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant32</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant32</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>Constant33</blkName>
+				<xpcblkName>Subsystem2/Subsystem/Constant33</xpcblkName>
+				<SLblockPath>canceshi/Subsystem2/Subsystem/Constant33</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>Multiport
+Switch</sigName>
+				<xpcsigName>Subsystem2/Subsystem/Multiport Switch</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<block>
+			<blkName>Constant18</blkName>
+			<xpcblkName>Subsystem2/Constant18</xpcblkName>
+			<SLblockPath>canceshi/Subsystem2/Constant18</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion17</sigName>
+			<xpcsigName>Subsystem2/Data Type Conversion17</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion18</sigName>
+			<xpcsigName>Subsystem2/Data Type Conversion18</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 3</sigName>
+			<xpcsigName>Subsystem2/CAN bit-packing 3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem3</Name>
+		<xPCName>canceshi/Subsystem3</xPCName>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>Subsystem3/constant2</xpcblkName>
+			<SLblockPath>canceshi/Subsystem3/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Memory</blkName>
+			<xpcblkName>Subsystem3/Memory</xpcblkName>
+			<SLblockPath>canceshi/Subsystem3/Memory</SLblockPath>
+			<isSrc>[0 1 1]</isSrc>
+			<parameter>
+				<paramName>X0</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Memory</sigName>
+			<xpcsigName>Subsystem3/Memory</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Relational
+Operator</sigName>
+			<xpcsigName>Subsystem3/Relational Operator</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Subtract</sigName>
+			<xpcsigName>Subsystem3/Subtract</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem4</Name>
+		<xPCName>canceshi/Subsystem4</xPCName>
+		<block>
+			<blkName>Constant16</blkName>
+			<xpcblkName>Subsystem4/Constant16</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant16</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant2</blkName>
+			<xpcblkName>Subsystem4/Constant2</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant3</blkName>
+			<xpcblkName>Subsystem4/Constant3</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant3</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant4</blkName>
+			<xpcblkName>Subsystem4/Constant4</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant4</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant5</blkName>
+			<xpcblkName>Subsystem4/Constant5</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant5</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant6</blkName>
+			<xpcblkName>Subsystem4/Constant6</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant6</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant7</blkName>
+			<xpcblkName>Subsystem4/Constant7</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant7</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Constant8</blkName>
+			<xpcblkName>Subsystem4/Constant8</xpcblkName>
+			<SLblockPath>canceshi/Subsystem4/Constant8</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion16</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion16</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion4</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion4</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion5</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion5</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion6</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion6</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>Subsystem4/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 2</sigName>
+			<xpcsigName>Subsystem4/CAN bit-packing 2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem5</Name>
+		<xPCName>canceshi/Subsystem5</xPCName>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>Subsystem5/constant2</xpcblkName>
+			<SLblockPath>canceshi/Subsystem5/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>Memory</blkName>
+			<xpcblkName>Subsystem5/Memory</xpcblkName>
+			<SLblockPath>canceshi/Subsystem5/Memory</SLblockPath>
+			<isSrc>[0 1 1]</isSrc>
+			<parameter>
+				<paramName>X0</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Memory</sigName>
+			<xpcsigName>Subsystem5/Memory</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Relational
+Operator</sigName>
+			<xpcsigName>Subsystem5/Relational Operator</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Subtract</sigName>
+			<xpcsigName>Subsystem5/Subtract</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>Subsystem6</Name>
+		<xPCName>canceshi/Subsystem6</xPCName>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>Subsystem6/constant2</xpcblkName>
+			<SLblockPath>canceshi/Subsystem6/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant5</blkName>
+			<xpcblkName>Subsystem6/constant5</xpcblkName>
+			<SLblockPath>canceshi/Subsystem6/constant5</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>Subsystem6/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>Subsystem6/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 1</sigName>
+			<xpcsigName>Subsystem6/CAN bit-packing 1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>baozhua1</Name>
+		<xPCName>canceshi/baozhua1</xPCName>
+		<SubSystem>
+			<Name>Subsystem5</Name>
+			<xPCName>canceshi/baozhua1/Subsystem5</xPCName>
+			<block>
+				<blkName>baojin</blkName>
+				<xpcblkName>baozhua1/Subsystem5/baojin</xpcblkName>
+				<SLblockPath>canceshi/baozhua1/Subsystem5/baojin</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>dakai</blkName>
+				<xpcblkName>baozhua1/Subsystem5/dakai</xpcblkName>
+				<SLblockPath>canceshi/baozhua1/Subsystem5/dakai</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>tingzhi</blkName>
+				<xpcblkName>baozhua1/Subsystem5/tingzhi</xpcblkName>
+				<SLblockPath>canceshi/baozhua1/Subsystem5/tingzhi</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>Multiport
+Switch</sigName>
+				<xpcsigName>baozhua1/Subsystem5/Multiport Switch</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<block>
+			<blkName>constant</blkName>
+			<xpcblkName>baozhua1/constant</xpcblkName>
+			<SLblockPath>canceshi/baozhua1/constant</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>baozhua1/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>baozhua1/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 3</sigName>
+			<xpcsigName>baozhua1/CAN bit-packing 3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>baozhua2</Name>
+		<xPCName>canceshi/baozhua2</xPCName>
+		<SubSystem>
+			<Name>Subsystem5</Name>
+			<xPCName>canceshi/baozhua2/Subsystem5</xPCName>
+			<block>
+				<blkName>baojin</blkName>
+				<xpcblkName>baozhua2/Subsystem5/baojin</xpcblkName>
+				<SLblockPath>canceshi/baozhua2/Subsystem5/baojin</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>dakai</blkName>
+				<xpcblkName>baozhua2/Subsystem5/dakai</xpcblkName>
+				<SLblockPath>canceshi/baozhua2/Subsystem5/dakai</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>tingzhi</blkName>
+				<xpcblkName>baozhua2/Subsystem5/tingzhi</xpcblkName>
+				<SLblockPath>canceshi/baozhua2/Subsystem5/tingzhi</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>Multiport
+Switch</sigName>
+				<xpcsigName>baozhua2/Subsystem5/Multiport Switch</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<block>
+			<blkName>constant</blkName>
+			<xpcblkName>baozhua2/constant</xpcblkName>
+			<SLblockPath>canceshi/baozhua2/constant</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant1</blkName>
+			<xpcblkName>baozhua2/constant1</xpcblkName>
+			<SLblockPath>canceshi/baozhua2/constant1</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>baozhua2/constant2</xpcblkName>
+			<SLblockPath>canceshi/baozhua2/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>baozhua2/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>baozhua2/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>baozhua2/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>baozhua2/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 1</sigName>
+			<xpcsigName>baozhua2/CAN bit-packing 1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 3</sigName>
+			<xpcsigName>baozhua2/CAN bit-packing 3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>shengjiang</Name>
+		<xPCName>canceshi/shengjiang</xPCName>
+		<SubSystem>
+			<Name>Subsystem5</Name>
+			<xPCName>canceshi/shengjiang/Subsystem5</xPCName>
+			<block>
+				<blkName>diwei</blkName>
+				<xpcblkName>shengjiang/Subsystem5/diwei</xpcblkName>
+				<SLblockPath>canceshi/shengjiang/Subsystem5/diwei</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>gaowei</blkName>
+				<xpcblkName>shengjiang/Subsystem5/gaowei</xpcblkName>
+				<SLblockPath>canceshi/shengjiang/Subsystem5/gaowei</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>tingzhi</blkName>
+				<xpcblkName>shengjiang/Subsystem5/tingzhi</xpcblkName>
+				<SLblockPath>canceshi/shengjiang/Subsystem5/tingzhi</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>Multiport
+Switch</sigName>
+				<xpcsigName>shengjiang/Subsystem5/Multiport Switch</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<block>
+			<blkName>constant</blkName>
+			<xpcblkName>shengjiang/constant</xpcblkName>
+			<SLblockPath>canceshi/shengjiang/constant</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant1</blkName>
+			<xpcblkName>shengjiang/constant1</xpcblkName>
+			<SLblockPath>canceshi/shengjiang/constant1</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>shengjiang/constant2</xpcblkName>
+			<SLblockPath>canceshi/shengjiang/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>shengjiang/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>shengjiang/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>shengjiang/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>shengjiang/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 1</sigName>
+			<xpcsigName>shengjiang/CAN bit-packing 1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 3</sigName>
+			<xpcsigName>shengjiang/CAN bit-packing 3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<SubSystem>
+		<Name>xuanzhuan</Name>
+		<xPCName>canceshi/xuanzhuan</xPCName>
+		<SubSystem>
+			<Name>Subsystem5</Name>
+			<xPCName>canceshi/xuanzhuan/Subsystem5</xPCName>
+			<block>
+				<blkName>gongzuowei</blkName>
+				<xpcblkName>xuanzhuan/Subsystem5/gongzuowei</xpcblkName>
+				<SLblockPath>canceshi/xuanzhuan/Subsystem5/gongzuowei</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>tingzhi</blkName>
+				<xpcblkName>xuanzhuan/Subsystem5/tingzhi</xpcblkName>
+				<SLblockPath>canceshi/xuanzhuan/Subsystem5/tingzhi</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<block>
+				<blkName>yuanshiwei</blkName>
+				<xpcblkName>xuanzhuan/Subsystem5/yuanshiwei</xpcblkName>
+				<SLblockPath>canceshi/xuanzhuan/Subsystem5/yuanshiwei</SLblockPath>
+				<isSrc>[1 0 1]</isSrc>
+				<parameter>
+					<paramName>Value</paramName>
+					<dim>[1, 1]</dim>
+				</parameter>
+			</block>
+			<signal>
+				<sigName>Multiport
+Switch</sigName>
+				<xpcsigName>xuanzhuan/Subsystem5/Multiport Switch</xpcsigName>
+				<sigWidth>1</sigWidth>
+				<sigDim>[1, 1]</sigDim>
+			</signal>
+		</SubSystem>
+		<block>
+			<blkName>constant</blkName>
+			<xpcblkName>xuanzhuan/constant</xpcblkName>
+			<SLblockPath>canceshi/xuanzhuan/constant</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant1</blkName>
+			<xpcblkName>xuanzhuan/constant1</xpcblkName>
+			<SLblockPath>canceshi/xuanzhuan/constant1</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<block>
+			<blkName>constant2</blkName>
+			<xpcblkName>xuanzhuan/constant2</xpcblkName>
+			<SLblockPath>canceshi/xuanzhuan/constant2</SLblockPath>
+			<isSrc>[1 0 1]</isSrc>
+			<parameter>
+				<paramName>Value</paramName>
+				<dim>[1, 1]</dim>
+			</parameter>
+		</block>
+		<signal>
+			<sigName>Data Type Conversion1</sigName>
+			<xpcsigName>xuanzhuan/Data Type Conversion1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion2</sigName>
+			<xpcsigName>xuanzhuan/Data Type Conversion2</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion3</sigName>
+			<xpcsigName>xuanzhuan/Data Type Conversion3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>Data Type Conversion7</sigName>
+			<xpcsigName>xuanzhuan/Data Type Conversion7</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 1</sigName>
+			<xpcsigName>xuanzhuan/CAN bit-packing 1</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+		<signal>
+			<sigName>CAN bit-packing 3</sigName>
+			<xpcsigName>xuanzhuan/CAN bit-packing 3</xpcsigName>
+			<sigWidth>1</sigWidth>
+			<sigDim>[1, 1]</sigDim>
+		</signal>
+	</SubSystem>
+	<block>
+		<blkName>77</blkName>
+		<xpcblkName>77</xpcblkName>
+		<SLblockPath>canceshi/77</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>99</blkName>
+		<xpcblkName>99</xpcblkName>
+		<SLblockPath>canceshi/99</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant10</blkName>
+		<xpcblkName>Constant10</xpcblkName>
+		<SLblockPath>canceshi/Constant10</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant11</blkName>
+		<xpcblkName>Constant11</xpcblkName>
+		<SLblockPath>canceshi/Constant11</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant12</blkName>
+		<xpcblkName>Constant12</xpcblkName>
+		<SLblockPath>canceshi/Constant12</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant13</blkName>
+		<xpcblkName>Constant13</xpcblkName>
+		<SLblockPath>canceshi/Constant13</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant14</blkName>
+		<xpcblkName>Constant14</xpcblkName>
+		<SLblockPath>canceshi/Constant14</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant15</blkName>
+		<xpcblkName>Constant15</xpcblkName>
+		<SLblockPath>canceshi/Constant15</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant16</blkName>
+		<xpcblkName>Constant16</xpcblkName>
+		<SLblockPath>canceshi/Constant16</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant17</blkName>
+		<xpcblkName>Constant17</xpcblkName>
+		<SLblockPath>canceshi/Constant17</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant19</blkName>
+		<xpcblkName>Constant19</xpcblkName>
+		<SLblockPath>canceshi/Constant19</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant2</blkName>
+		<xpcblkName>Constant2</xpcblkName>
+		<SLblockPath>canceshi/Constant2</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant20</blkName>
+		<xpcblkName>Constant20</xpcblkName>
+		<SLblockPath>canceshi/Constant20</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant21</blkName>
+		<xpcblkName>Constant21</xpcblkName>
+		<SLblockPath>canceshi/Constant21</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant22</blkName>
+		<xpcblkName>Constant22</xpcblkName>
+		<SLblockPath>canceshi/Constant22</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant23</blkName>
+		<xpcblkName>Constant23</xpcblkName>
+		<SLblockPath>canceshi/Constant23</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant24</blkName>
+		<xpcblkName>Constant24</xpcblkName>
+		<SLblockPath>canceshi/Constant24</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant25</blkName>
+		<xpcblkName>Constant25</xpcblkName>
+		<SLblockPath>canceshi/Constant25</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant26</blkName>
+		<xpcblkName>Constant26</xpcblkName>
+		<SLblockPath>canceshi/Constant26</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant27</blkName>
+		<xpcblkName>Constant27</xpcblkName>
+		<SLblockPath>canceshi/Constant27</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant28</blkName>
+		<xpcblkName>Constant28</xpcblkName>
+		<SLblockPath>canceshi/Constant28</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant29</blkName>
+		<xpcblkName>Constant29</xpcblkName>
+		<SLblockPath>canceshi/Constant29</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant3</blkName>
+		<xpcblkName>Constant3</xpcblkName>
+		<SLblockPath>canceshi/Constant3</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant4</blkName>
+		<xpcblkName>Constant4</xpcblkName>
+		<SLblockPath>canceshi/Constant4</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant5</blkName>
+		<xpcblkName>Constant5</xpcblkName>
+		<SLblockPath>canceshi/Constant5</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant6</blkName>
+		<xpcblkName>Constant6</xpcblkName>
+		<SLblockPath>canceshi/Constant6</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant7</blkName>
+		<xpcblkName>Constant7</xpcblkName>
+		<SLblockPath>canceshi/Constant7</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant8</blkName>
+		<xpcblkName>Constant8</xpcblkName>
+		<SLblockPath>canceshi/Constant8</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Constant9</blkName>
+		<xpcblkName>Constant9</xpcblkName>
+		<SLblockPath>canceshi/Constant9</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>constant1</blkName>
+		<xpcblkName>constant1</xpcblkName>
+		<SLblockPath>canceshi/constant1</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>constant3</blkName>
+		<xpcblkName>constant3</xpcblkName>
+		<SLblockPath>canceshi/constant3</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>constant4</blkName>
+		<xpcblkName>constant4</xpcblkName>
+		<SLblockPath>canceshi/constant4</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>dongzuo_zhuangtai1</blkName>
+		<xpcblkName>dongzuo_zhuangtai1</xpcblkName>
+		<SLblockPath>canceshi/dongzuo_zhuangtai1</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Pulse
+Generator</blkName>
+		<xpcblkName>Pulse Generator</xpcblkName>
+		<SLblockPath>canceshi/Pulse Generator</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Amplitude</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>Period</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>PulseWidth</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>PhaseDelay</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>right7</blkName>
+		<xpcblkName>right7</xpcblkName>
+		<SLblockPath>canceshi/right7</SLblockPath>
+		<isSrc>[0 1 1]</isSrc>
+		<parameter>
+			<paramName>InputValues</paramName>
+			<dim>[1, 2]</dim>
+		</parameter>
+		<parameter>
+			<paramName>Table</paramName>
+			<dim>[1, 2]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>PCL731</blkName>
+		<xpcblkName>PCL731</xpcblkName>
+		<SLblockPath>canceshi/PCL731</SLblockPath>
+		<isSrc>[0 1 1]</isSrc>
+		<parameter>
+			<paramName>P1</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P2</paramName>
+			<dim>[1, 2]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Setup </blkName>
+		<xpcblkName>Setup </xpcblkName>
+		<SLblockPath>canceshi/Setup </SLblockPath>
+		<isSrc>[0 0 0]</isSrc>
+		<parameter>
+			<paramName>P1</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P2</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P3</paramName>
+			<dim>[1, 7]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P4</paramName>
+			<dim>[1, 6]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P11</paramName>
+			<dim>[1, 6]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P15</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P16</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P17</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P18</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P19</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P20</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P21</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P22</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P23</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P24</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<signal>
+		<sigName>dongzuo_zhuangtai1</sigName>
+		<xpcsigName>dongzuo_zhuangtai1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>a</sigName>
+		<xpcsigName>a</xpcsigName>
+		<sigWidth>4</sigWidth>
+		<sigDim>[4, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>b</sigName>
+		<xpcsigName>b</xpcsigName>
+		<sigWidth>4</sigWidth>
+		<sigDim>[4, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>baozhuaa</sigName>
+		<xpcsigName>baozhuaa</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>baozhuab</sigName>
+		<xpcsigName>baozhuab</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>c</sigName>
+		<xpcsigName>c</xpcsigName>
+		<sigWidth>5</sigWidth>
+		<sigDim>[5, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>d</sigName>
+		<xpcsigName>d</xpcsigName>
+		<sigWidth>5</sigWidth>
+		<sigDim>[5, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>e</sigName>
+		<xpcsigName>e</xpcsigName>
+		<sigWidth>4</sigWidth>
+		<sigDim>[4, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>f</sigName>
+		<xpcsigName>f</xpcsigName>
+		<sigWidth>4</sigWidth>
+		<sigDim>[4, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>shengjianga</sigName>
+		<xpcsigName>shengjianga</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>sifufa</sigName>
+		<xpcsigName>sifufa</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>xuanzhuana</sigName>
+		<xpcsigName>xuanzhuana</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Pulse
+Generator</sigName>
+		<xpcsigName>Pulse Generator</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>right7</sigName>
+		<xpcsigName>right7</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Multiport
+Switch1</sigName>
+		<xpcsigName>Multiport Switch1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Multiport
+Switch2</sigName>
+		<xpcsigName>Multiport Switch2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Multiport
+Switch3</sigName>
+		<xpcsigName>Multiport Switch3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Multiport
+Switch4</sigName>
+		<xpcsigName>Multiport Switch4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive /p1</sigName>
+		<xpcsigName>3402Receive /p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive /p2</sigName>
+		<xpcsigName>3402Receive /p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking /p1</sigName>
+		<xpcsigName>CAN bit-unpacking /p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking /p2</sigName>
+		<xpcsigName>CAN bit-unpacking /p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking /p3</sigName>
+		<xpcsigName>CAN bit-unpacking /p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking /p4</sigName>
+		<xpcsigName>CAN bit-unpacking /p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p6</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p6</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p7</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p7</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 1/p8</sigName>
+		<xpcsigName>CAN bit-unpacking 1/p8</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 2/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 2/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 3/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 3/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 5/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 5/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>PCL731</sigName>
+		<xpcsigName>PCL731</xpcsigName>
+		<sigWidth>24</sigWidth>
+		<sigDim>[24, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Receive/p1</sigName>
+		<xpcsigName>Receive/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Receive/p2</sigName>
+		<xpcsigName>Receive/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Receive/p3</sigName>
+		<xpcsigName>Receive/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Receive/p4</sigName>
+		<xpcsigName>Receive/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+</Root>

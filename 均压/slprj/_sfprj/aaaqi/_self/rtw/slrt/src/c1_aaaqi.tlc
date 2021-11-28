@@ -1,0 +1,90 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   12 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_active_c1_aaaqi"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_c1_aaaqi"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_zidong"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong"\
+    }\
+    ChartData {\
+      Name         "is_SXQxieya"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong.SXQxieya"\
+    }\
+    ChartData {\
+      Name         "is_kaiguangai"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong.kaiguangai"\
+    }\
+    ChartData {\
+      Name         "is_SCjiaya"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong.SCjiaya"\
+    }\
+    ChartData {\
+      Name         "is_SCzhushui"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong.SCzhushui"\
+    }\
+    ChartData {\
+      Name         "is_SXQjunya"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "zidong.SXQjunya"\
+    }\
+    ChartData {\
+      Name         "p0_1"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "p0_1"\
+    }\
+    ChartData {\
+      Name         "p0_2"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "p0_2"\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

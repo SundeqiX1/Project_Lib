@@ -1,0 +1,17 @@
+#include "canceshi1.bio"
+#include "canceshi1.lbl"
+#include "canceshi1.sid"
+
+
+const xpc_SigMappingInfo xpcMMI[] =
+  {
+    {
+      {canceshi1_BIO},
+      {canceshi1_SID},
+      {canceshi1_LBL},
+      "",
+      "canceshi1",
+      0,
+      197,
+    },
+  };

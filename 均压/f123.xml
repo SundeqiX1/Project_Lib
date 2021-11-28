@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+          <SubSystem>
+    <Name>Scope </Name>
+    <xPCName>f123/Scope </xPCName>
+    
+    
+    </SubSystem>
+    <SubSystem>
+    <Name>v</Name>
+    <xPCName>f123/v</xPCName>
+    
+    
+    </SubSystem>
+
+                  <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>Constant1</xpcblkName>
+            <SLblockPath>f123/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant10</blkName>
+            <xpcblkName>Constant10</xpcblkName>
+            <SLblockPath>f123/Constant10</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant11</blkName>
+            <xpcblkName>Constant11</xpcblkName>
+            <SLblockPath>f123/Constant11</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant12</blkName>
+            <xpcblkName>Constant12</xpcblkName>
+            <SLblockPath>f123/Constant12</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant13</blkName>
+            <xpcblkName>Constant13</xpcblkName>
+            <SLblockPath>f123/Constant13</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant14</blkName>
+            <xpcblkName>Constant14</xpcblkName>
+            <SLblockPath>f123/Constant14</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant15</blkName>
+            <xpcblkName>Constant15</xpcblkName>
+            <SLblockPath>f123/Constant15</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant2</blkName>
+            <xpcblkName>Constant2</xpcblkName>
+            <SLblockPath>f123/Constant2</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant22</blkName>
+            <xpcblkName>Constant22</xpcblkName>
+            <SLblockPath>f123/Constant22</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant3</blkName>
+            <xpcblkName>Constant3</xpcblkName>
+            <SLblockPath>f123/Constant3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant4</blkName>
+            <xpcblkName>Constant4</xpcblkName>
+            <SLblockPath>f123/Constant4</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant5</blkName>
+            <xpcblkName>Constant5</xpcblkName>
+            <SLblockPath>f123/Constant5</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant6</blkName>
+            <xpcblkName>Constant6</xpcblkName>
+            <SLblockPath>f123/Constant6</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant7</blkName>
+            <xpcblkName>Constant7</xpcblkName>
+            <SLblockPath>f123/Constant7</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant8</blkName>
+            <xpcblkName>Constant8</xpcblkName>
+            <SLblockPath>f123/Constant8</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Constant9</blkName>
+            <xpcblkName>Constant9</xpcblkName>
+            <SLblockPath>f123/Constant9</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Gain</xpcblkName>
+            <SLblockPath>f123/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Gain1</xpcblkName>
+            <SLblockPath>f123/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Setup </blkName>
+            <xpcblkName>Setup </xpcblkName>
+            <SLblockPath>f123/Setup </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P13</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P15</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P16</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P17</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P18</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P19</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P20</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P21</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P22</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P23</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P24</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>s3</blkName>
+            <xpcblkName>s3</xpcblkName>
+            <SLblockPath>f123/s3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>A</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>B</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>C</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>X0</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+            <block>
+            <blkName>Manual Switch</blkName>
+            <xpcblkName>Manual Switch</xpcblkName>
+            <SLblockPath>f123/Manual Switch</SLblockPath>
+            <isSrc>[0 2 1]</isSrc>
+          <parameter>
+          <paramName>CurrentSetting</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>v</sigName>
+              <xpcsigName>v</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion1</sigName>
+              <xpcsigName>Data Type Conversion1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion10</sigName>
+              <xpcsigName>Data Type Conversion10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion11</sigName>
+              <xpcsigName>Data Type Conversion11</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion12</sigName>
+              <xpcsigName>Data Type Conversion12</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion13</sigName>
+              <xpcsigName>Data Type Conversion13</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion14</sigName>
+              <xpcsigName>Data Type Conversion14</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion15</sigName>
+              <xpcsigName>Data Type Conversion15</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion16</sigName>
+              <xpcsigName>Data Type Conversion16</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion2</sigName>
+              <xpcsigName>Data Type Conversion2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion3</sigName>
+              <xpcsigName>Data Type Conversion3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion4</sigName>
+              <xpcsigName>Data Type Conversion4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion5</sigName>
+              <xpcsigName>Data Type Conversion5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion6</sigName>
+              <xpcsigName>Data Type Conversion6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion7</sigName>
+              <xpcsigName>Data Type Conversion7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion8</sigName>
+              <xpcsigName>Data Type Conversion8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Data Type Conversion9</sigName>
+              <xpcsigName>Data Type Conversion9</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-packing 2</sigName>
+              <xpcsigName>CAN bit-packing 2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 3/p1</sigName>
+              <xpcsigName>CAN bit-unpacking 3/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 3/p2</sigName>
+              <xpcsigName>CAN bit-unpacking 3/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 3/p3</sigName>
+              <xpcsigName>CAN bit-unpacking 3/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 3/p4</sigName>
+              <xpcsigName>CAN bit-unpacking 3/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>yalichuanganqi3402</sigName>
+              <xpcsigName>yalichuanganqi3402</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>s3</sigName>
+              <xpcsigName>s3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>Manual Switch</sigName>
+              <xpcsigName>Manual Switch</xpcsigName>
+              <sigWidth>8</sigWidth>
+              <sigDim>[8, 1]</sigDim>
+            </signal>
+
+</Root>

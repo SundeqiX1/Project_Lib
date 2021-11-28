@@ -1,0 +1,2430 @@
+Model {
+  Name			  "Copy_3_of_canceshi"
+  Version		  7.6
+  MdlSubVersion		  0
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.71"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SavedCharacterEncoding  "GBK"
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "Copy_3_of_canceshi"
+      PropName		      "mdlProps"
+    }
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  MaxMDLFileLineLength	  120
+  CloseFcn		  "rtwprivate ssgencode ModelCloseRequest canceshi"
+  Created		  "Tue Apr 28 12:10:38 2020"
+  Creator		  "Administrator"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Administrator"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Wed May 27 09:27:50 2020"
+  RTWModifiedTimeStamp	  512472463
+  ModelVersionFormat	  "1.%<AutoIncrement:71>"
+  ConfigurationManager	  "None"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "external"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  off
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      2
+      Version		      "1.10.0"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  3
+	  Version		  "1.10.0"
+	  StartTime		  "0.0"
+	  StopTime		  "inf"
+	  AbsTol		  "auto"
+	  FixedStep		  "0.5"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  ConcurrentTasks	  off
+	  Solver		  "ode4"
+	  SolverName		  "ode4"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  4
+	  Version		  "1.10.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  5
+	  Version		  "1.10.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  off
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  off
+	  BufferReuse		  off
+	  EnhancedBackFolding	  off
+	  StrengthReduction	  off
+	  ExpressionFolding	  off
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  off
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  6
+	  Version		  "1.10.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Use local settings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  7
+	  Version		  "1.10.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "Generic->32-bit x86 compatible"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  8
+	  Version		  "1.10.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  9
+	  Version		  "1.10.0"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  10
+	  Version		  "1.10.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "GenerateSLWebview"
+	    Cell		    "TargetLang"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "xpctarget.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "xpc_default_tmf"
+	  Description		  "xPC Target"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ProcessScript		  "xpctarget_make_rtw_hook"
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateSLWebview	  off
+	  RTWCompilerOptimization "On"
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      11
+	      Version		      "1.10.0"
+	      Array {
+		Type			"Cell"
+		Dimension		21
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    xpctarget.xpcTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      12
+	      Version		      "1.10.0"
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      TargetFunctionLibrary   "XPC_BLAS"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTCodeCoverageTool     "None"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      RL32ModeModifier	      "Real-Time"
+	      ExtMode		      on
+	      ExtModeMexFile	      "ext_xpc"
+	      ExtModeIntrfLevel	      "Level2 - Open"
+	      ExtModeArmWhenConnect   off
+	      RL32LogTETModifier      on
+	      RL32LogBufSizeModifier  "100000"
+	      RL32IRQSourceModifier   "Timer"
+	      xPCIRQSourceBoard	      "None/Other"
+	      xPCIOIRQSlot	      "-1"
+	      xpcDblBuff	      off
+	      xpcObjCom		      off
+	      xPCGenerateASAP2	      off
+	      xPCGenerateXML	      off
+	      RL32ObjectName	      "tg"
+	      xPCisDownloadable	      on
+	      xPCisDefaultEnv	      on
+	      xPCisModelTimeout	      on
+	      xPCModelTimeoutSecs     "5"
+	      xPCLoadParamSetFile     off
+	      xPCConcurrentTasks      off
+	      xPCEnableSFAnimation    off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  13
+	  Version		  "1.10.0"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    ""
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      ExtraOptions	      "-aGenerateTraceInfo=0 -aIgnoreTestpoints=0 "
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    " [ 200, 197, 1080, 827 ] "
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    2
+  }
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via back propagation"
+      LockScale		      off
+      ConvertRealWorld	      "Real World Value (RWV)"
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      MultiPortSwitch
+      DataPortOrder	      "One-based contiguous"
+      Inputs		      "3"
+      DataPortIndices	      "{1,2,3}"
+      DataPortForDefault      "Last data port"
+      DiagnosticForDefault    "Error"
+      InputSameDT	      on
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+      AllowDiffInputSizes     off
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      RelationalOperator
+      Operator		      ">="
+      InputSameDT	      on
+      OutDataTypeStr	      "Inherit: Logical (see Configuration Parameters: Optimization)"
+      ZeroCross		      on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+    }
+    Block {
+      BlockType		      Terminator
+    }
+  }
+  System {
+    Name		    "Copy_3_of_canceshi"
+    Location		    [2, 82, 1245, 954]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "910"
+    Block {
+      BlockType		      Reference
+      Name		      "1808Send1"
+      SID		      "902"
+      Ports		      [1]
+      Position		      [1360, 918, 1470, 1112]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Softing/CAN-AC2-PCI\nSJA 1000/Send "
+      SourceType	      "canac2pcisend"
+      board		      "1"
+      canPort		      "CAN 1"
+      range		      "Standard (11-bit)"
+      ids		      "1"
+      sizes		      "[8]"
+      output		      off
+      ts		      "-1"
+      ididx		      "[0]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "1808Send3"
+      SID		      "903"
+      Ports		      [1]
+      Position		      [1360, 1148, 1470, 1342]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Softing/CAN-AC2-PCI\nSJA 1000/Send "
+      SourceType	      "canac2pcisend"
+      board		      "1"
+      canPort		      "CAN 2"
+      range		      "Standard (11-bit)"
+      ids		      "2"
+      sizes		      "[8]"
+      output		      off
+      ts		      "-1"
+      ididx		      "[1]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "1808Send4"
+      SID		      "904"
+      Ports		      [1]
+      Position		      [1360, 1418, 1470, 1612]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Softing/CAN-AC2-PCI\nSJA 1000/Send "
+      SourceType	      "canac2pcisend"
+      board		      "1"
+      canPort		      "CAN 2"
+      range		      "Standard (11-bit)"
+      ids		      "3"
+      sizes		      "[8]"
+      output		      off
+      ts		      "-1"
+      ididx		      "[2]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "1808Send5"
+      SID		      "905"
+      Ports		      [1]
+      Position		      [1360, 1633, 1470, 1827]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Softing/CAN-AC2-PCI\nSJA 1000/Send "
+      SourceType	      "canac2pcisend"
+      board		      "1"
+      canPort		      "CAN 2"
+      range		      "Standard (11-bit)"
+      ids		      "4"
+      sizes		      "[8]"
+      output		      off
+      ts		      "-1"
+      ididx		      "[3]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "3402Receive 1"
+      SID		      "340"
+      Ports		      [0, 4]
+      Position		      [45, 1028, 170, 1537]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Softing/CAN-AC2-PCI\nSJA 1000/Receive "
+      SourceType	      "canac2pcireceive"
+      board		      "1"
+      canPort		      "CAN 2"
+      range		      "Standard (11-bit)"
+      ids		      "[1 2 3 4]"
+      lengths		      "8"
+      output		      "Data"
+      inten		      off
+      ts		      "-1"
+      ididx		      "[0,1,2,3]"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing "
+      SID		      "565"
+      Ports		      [2, 1]
+      Position		      [1030, 989, 1125, 1036]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 1"
+      SID		      "567"
+      Ports		      [2, 1]
+      Position		      [1030, 1224, 1125, 1271]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 2"
+      SID		      "575"
+      Ports		      [2, 1]
+      Position		      [1030, 1464, 1125, 1511]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 3"
+      SID		      "579"
+      Ports		      [2, 1]
+      Position		      [1030, 1699, 1125, 1746]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 4"
+      SID		      "721"
+      Ports		      [2, 1]
+      Position		      [1030, 1109, 1125, 1156]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 5"
+      SID		      "726"
+      Ports		      [2, 1]
+      Position		      [1030, 1334, 1125, 1381]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 6"
+      SID		      "731"
+      Ports		      [2, 1]
+      Position		      [1030, 1574, 1125, 1621]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-packing 7"
+      SID		      "736"
+      Ports		      [2, 1]
+      Position		      [1030, 1804, 1125, 1851]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-packing "
+      SourceType	      "bit2double"
+      bitpatterns	      "{ [0:7] [8:15] }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-unpacking 2"
+      SID		      "349"
+      Ports		      [1, 4]
+      Position		      [200, 1050, 295, 1140]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-unpacking "
+      SourceType	      "double2bit"
+      bitpatterns	      "{ [0:7],[8:15],[16:23],[24:31]}"
+      dtypes		      "{ 'uint8','uint8','uint8','uint8' }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-unpacking 3"
+      SID		      "350"
+      Ports		      [1, 4]
+      Position		      [200, 1175, 295, 1265]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-unpacking "
+      SourceType	      "double2bit"
+      bitpatterns	      "{ [0:7],[8:15],[16:23],[24:31]}"
+      dtypes		      "{ 'uint8','uint8','uint8','uint8' }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-unpacking 4"
+      SID		      "351"
+      Ports		      [1, 5]
+      Position		      [200, 1300, 295, 1390]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-unpacking "
+      SourceType	      "double2bit"
+      bitpatterns	      "{ [0:7],[8:15],[16:23],[24:31],[32:39]}"
+      dtypes		      "{ 'uint8','uint8','uint8','uint8','uint8' }"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "CAN bit-unpacking 5"
+      SID		      "353"
+      Ports		      [1, 5]
+      Position		      [200, 1425, 295, 1515]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Utilities/CAN bit-unpacking "
+      SourceType	      "double2bit"
+      bitpatterns	      "{ [0:7],[8:15],[16:23],[24:31],[32:39]}"
+      dtypes		      "{ 'uint8','uint8','uint8','uint8','uint8' }"
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion"
+      SID		      "547"
+      Position		      [885, 978, 960, 1012]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion10"
+      SID		      "580"
+      Position		      [885, 1688, 960, 1722]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion11"
+      SID		      "581"
+      Position		      [890, 1738, 965, 1772]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion12"
+      SID		      "722"
+      Position		      [885, 1098, 960, 1132]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion13"
+      SID		      "723"
+      Position		      [885, 1153, 960, 1187]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion14"
+      SID		      "727"
+      Position		      [885, 1323, 960, 1357]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion15"
+      SID		      "728"
+      Position		      [885, 1378, 960, 1412]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion16"
+      SID		      "732"
+      Position		      [885, 1563, 960, 1597]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion17"
+      SID		      "733"
+      Position		      [885, 1618, 960, 1652]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion18"
+      SID		      "737"
+      Position		      [885, 1798, 960, 1832]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion19"
+      SID		      "738"
+      Position		      [885, 1853, 960, 1887]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion5"
+      SID		      "549"
+      Position		      [880, 1033, 955, 1067]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion6"
+      SID		      "568"
+      Position		      [885, 1213, 960, 1247]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion7"
+      SID		      "569"
+      Position		      [880, 1268, 955, 1302]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion8"
+      SID		      "576"
+      Position		      [885, 1453, 960, 1487]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "Data Type Conversion9"
+      SID		      "577"
+      Position		      [885, 1508, 960, 1542]
+      OutDataTypeStr	      "uint8"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      MultiPortSwitch
+      Name		      "Multiport\nSwitch"
+      SID		      "813"
+      Ports		      [3, 1]
+      Position		      [1285, 988, 1320, 1042]
+      DataPortOrder	      "Zero-based contiguous"
+      Inputs		      "2"
+      zeroidx		      on
+      InputSameDT	      off
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      MultiPortSwitch
+      Name		      "Multiport\nSwitch1"
+      SID		      "815"
+      Ports		      [3, 1]
+      Position		      [1270, 1218, 1305, 1272]
+      DataPortOrder	      "Zero-based contiguous"
+      Inputs		      "2"
+      zeroidx		      on
+      InputSameDT	      off
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      MultiPortSwitch
+      Name		      "Multiport\nSwitch2"
+      SID		      "816"
+      Ports		      [3, 1]
+      Position		      [1255, 1483, 1290, 1537]
+      DataPortOrder	      "Zero-based contiguous"
+      Inputs		      "2"
+      zeroidx		      on
+      InputSameDT	      off
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      MultiPortSwitch
+      Name		      "Multiport\nSwitch3"
+      SID		      "819"
+      Ports		      [3, 1]
+      Position		      [1255, 1698, 1290, 1752]
+      DataPortOrder	      "Zero-based contiguous"
+      Inputs		      "2"
+      zeroidx		      on
+      InputSameDT	      off
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux3"
+      SID		      "354"
+      Ports		      [4, 1]
+      Position		      [325, 1052, 330, 1138]
+      ShowName		      off
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux4"
+      SID		      "355"
+      Ports		      [4, 1]
+      Position		      [325, 1177, 330, 1263]
+      ShowName		      off
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux5"
+      SID		      "356"
+      Ports		      [5, 1]
+      Position		      [325, 1298, 330, 1392]
+      ShowName		      off
+      Inputs		      "5"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux6"
+      SID		      "357"
+      Ports		      [5, 1]
+      Position		      [325, 1423, 330, 1517]
+      ShowName		      off
+      Inputs		      "5"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Setup "
+      SID		      "4"
+      Ports		      []
+      Position		      [695, 815, 805, 875]
+      LibraryVersion	      "1.1682"
+      SourceBlock	      "xpclib/CAN/Softing/CAN-AC2-PCI\nSJA 1000/Setup "
+      SourceType	      "canac2pcisetup"
+      board		      "1"
+      can1bus		      "Highspeed (ISO 11898) "
+      can1Baudrate	      "500 kBaud"
+      can1UserBR	      "[1,1,4,3]"
+      can2bus		      "Highspeed (ISO 11898) "
+      can2Baudrate	      "500 kBaud"
+      can2UserBR	      "[1,1,4,3]"
+      init		      "[]"
+      term		      "[]"
+      bus_off_out	      off
+      bus_off_rec	      "Off"
+      ioBaseAddress	      "-1"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Subsystem1"
+      SID		      "906"
+      Ports		      [1, 1]
+      Position		      [1045, 1656, 1110, 1684]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"Subsystem1"
+	Location		[2, 82, 1262, 971]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "907"
+	  Position		  [25, 73, 55, 87]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Integer Delay"
+	  SID			  "908"
+	  Ports			  [1, 1]
+	  Position		  [95, 98, 130, 132]
+	  LibraryVersion	  "1.225"
+	  UserDataPersistent	  on
+	  UserData		  "DataTag0"
+	  SourceBlock		  "simulink/Discrete/Integer Delay"
+	  SourceType		  "Integer Delay"
+	  NumDelays		  "1"
+	  InputProcessing	  "Elements as channels (sample based)"
+	  vinit			  "0.0"
+	  samptime		  "-1"
+	}
+	Block {
+	  BlockType		  RelationalOperator
+	  Name			  "Relational\nOperator"
+	  SID			  "909"
+	  Ports			  [2, 1]
+	  Position		  [225, 72, 255, 103]
+	  Operator		  "=="
+	  InputSameDT		  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "910"
+	  Position		  [280, 83, 310, 97]
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "Integer Delay"
+	  SrcPort		  1
+	  Points		  [0, -20]
+	  DstBlock		  "Relational\nOperator"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    Points		    [0, 35]
+	    DstBlock		    "Integer Delay"
+	    DstPort		    1
+	  }
+	  Branch {
+	    DstBlock		    "Relational\nOperator"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Relational\nOperator"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Subsystem2"
+      SID		      "851"
+      Ports		      [1, 1]
+      Position		      [1050, 936, 1115, 964]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"Subsystem2"
+	Location		[2, 82, 1262, 971]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "852"
+	  Position		  [25, 73, 55, 87]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Integer Delay"
+	  SID			  "853"
+	  Ports			  [1, 1]
+	  Position		  [95, 98, 130, 132]
+	  LibraryVersion	  "1.225"
+	  UserDataPersistent	  on
+	  UserData		  "DataTag1"
+	  SourceBlock		  "simulink/Discrete/Integer Delay"
+	  SourceType		  "Integer Delay"
+	  NumDelays		  "1"
+	  InputProcessing	  "Elements as channels (sample based)"
+	  vinit			  "0.0"
+	  samptime		  "-1"
+	}
+	Block {
+	  BlockType		  RelationalOperator
+	  Name			  "Relational\nOperator"
+	  SID			  "854"
+	  Ports			  [2, 1]
+	  Position		  [225, 72, 255, 103]
+	  Operator		  "=="
+	  InputSameDT		  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "857"
+	  Position		  [280, 83, 310, 97]
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "Integer Delay"
+	  SrcPort		  1
+	  Points		  [0, -20]
+	  DstBlock		  "Relational\nOperator"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    Points		    [0, 35]
+	    DstBlock		    "Integer Delay"
+	    DstPort		    1
+	  }
+	  Branch {
+	    DstBlock		    "Relational\nOperator"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Relational\nOperator"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Subsystem3"
+      SID		      "868"
+      Ports		      [1, 1]
+      Position		      [1045, 1416, 1110, 1444]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"Subsystem3"
+	Location		[2, 82, 1262, 971]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "869"
+	  Position		  [25, 73, 55, 87]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Integer Delay"
+	  SID			  "870"
+	  Ports			  [1, 1]
+	  Position		  [95, 98, 130, 132]
+	  LibraryVersion	  "1.225"
+	  UserDataPersistent	  on
+	  UserData		  "DataTag2"
+	  SourceBlock		  "simulink/Discrete/Integer Delay"
+	  SourceType		  "Integer Delay"
+	  NumDelays		  "1"
+	  InputProcessing	  "Elements as channels (sample based)"
+	  vinit			  "0.0"
+	  samptime		  "-1"
+	}
+	Block {
+	  BlockType		  RelationalOperator
+	  Name			  "Relational\nOperator"
+	  SID			  "871"
+	  Ports			  [2, 1]
+	  Position		  [225, 72, 255, 103]
+	  Operator		  "=="
+	  InputSameDT		  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "872"
+	  Position		  [280, 83, 310, 97]
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "Relational\nOperator"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    DstBlock		    "Relational\nOperator"
+	    DstPort		    1
+	  }
+	  Branch {
+	    Points		    [0, 35]
+	    DstBlock		    "Integer Delay"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Integer Delay"
+	  SrcPort		  1
+	  Points		  [0, -20]
+	  DstBlock		  "Relational\nOperator"
+	  DstPort		  2
+	}
+      }
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator1"
+      SID		      "367"
+      Position		      [600, 1145, 620, 1165]
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator2"
+      SID		      "368"
+      Position		      [600, 1275, 620, 1295]
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator3"
+      SID		      "369"
+      Position		      [600, 1405, 620, 1425]
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator4"
+      SID		      "468"
+      Position		      [545, 975, 565, 995]
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "a"
+      SID		      "467"
+      Position		      [435, 968, 510, 1002]
+      OutDataTypeStr	      "double"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "b"
+      SID		      "363"
+      Position		      [490, 1138, 565, 1172]
+      OutDataTypeStr	      "double"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "baozhuaa"
+      SID		      "763"
+      Position		      [720, 1033, 795, 1067]
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "baozhuay"
+      SID		      "548"
+      Position		      [650, 1042, 685, 1058]
+      Value		      "3"
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "c"
+      SID		      "364"
+      Position		      [490, 1268, 565, 1302]
+      OutDataTypeStr	      "double"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Display
+      Name		      "chuanganqi1"
+      SID		      "775"
+      Ports		      [1]
+      Position		      [385, 1293, 470, 1397]
+      Decimation	      "1"
+      Lockdown		      off
+    }
+    Block {
+      BlockType		      Display
+      Name		      "chuanganqi2"
+      SID		      "358"
+      Ports		      [1]
+      Position		      [385, 1050, 470, 1140]
+      Decimation	      "1"
+      Lockdown		      off
+    }
+    Block {
+      BlockType		      Display
+      Name		      "chuanganqi3"
+      SID		      "359"
+      Ports		      [1]
+      Position		      [385, 1175, 470, 1265]
+      Decimation	      "1"
+      Lockdown		      off
+    }
+    Block {
+      BlockType		      Display
+      Name		      "chuanganqi4"
+      SID		      "776"
+      Ports		      [1]
+      Position		      [385, 1418, 470, 1522]
+      Decimation	      "1"
+      Lockdown		      off
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant1"
+      SID		      "329"
+      Position		      [780, 987, 815, 1003]
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant10"
+      SID		      "729"
+      Position		      [815, 1332, 850, 1348]
+      Value		      "2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant11"
+      SID		      "730"
+      Position		      [815, 1387, 850, 1403]
+      Value		      "0"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant12"
+      SID		      "734"
+      Position		      [815, 1572, 850, 1588]
+      Value		      "2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant13"
+      SID		      "735"
+      Position		      [815, 1627, 850, 1643]
+      Value		      "0"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant14"
+      SID		      "739"
+      Position		      [815, 1807, 850, 1823]
+      Value		      "2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant15"
+      SID		      "740"
+      Position		      [815, 1862, 850, 1878]
+      Value		      "0"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant2"
+      SID		      "570"
+      Position		      [815, 1222, 850, 1238]
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant4"
+      SID		      "578"
+      Position		      [815, 1462, 850, 1478]
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant5"
+      SID		      "582"
+      Position		      [815, 1697, 850, 1713]
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant6"
+      SID		      "724"
+      Position		      [815, 1107, 850, 1123]
+      Value		      "2"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "constant9"
+      SID		      "725"
+      Position		      [815, 1162, 850, 1178]
+      Value		      "0"
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "d"
+      SID		      "365"
+      Position		      [490, 1398, 565, 1432]
+      OutDataTypeStr	      "double"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "shengjianga"
+      SID		      "764"
+      Position		      [760, 1508, 835, 1542]
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "shengjiangy"
+      SID		      "584"
+      Position		      [695, 1517, 730, 1533]
+      Value		      "3"
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      Name		      "xuanzhuana"
+      SID		      "765"
+      Position		      [760, 1738, 835, 1772]
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "xuanzhuany"
+      SID		      "585"
+      Position		      [695, 1747, 730, 1763]
+      Value		      "3"
+    }
+    Line {
+      SrcBlock		      "3402Receive 1"
+      SrcPort		      1
+      DstBlock		      "CAN bit-unpacking 2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "3402Receive 1"
+      SrcPort		      2
+      DstBlock		      "CAN bit-unpacking 3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "3402Receive 1"
+      SrcPort		      3
+      DstBlock		      "CAN bit-unpacking 4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "3402Receive 1"
+      SrcPort		      4
+      DstBlock		      "CAN bit-unpacking 5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 2"
+      SrcPort		      1
+      DstBlock		      "Mux3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 2"
+      SrcPort		      2
+      DstBlock		      "Mux3"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 2"
+      SrcPort		      3
+      DstBlock		      "Mux3"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 2"
+      SrcPort		      4
+      DstBlock		      "Mux3"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 3"
+      SrcPort		      1
+      DstBlock		      "Mux4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 3"
+      SrcPort		      2
+      DstBlock		      "Mux4"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 3"
+      SrcPort		      3
+      DstBlock		      "Mux4"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 3"
+      SrcPort		      4
+      DstBlock		      "Mux4"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 4"
+      SrcPort		      1
+      DstBlock		      "Mux5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 4"
+      SrcPort		      2
+      DstBlock		      "Mux5"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 4"
+      SrcPort		      3
+      DstBlock		      "Mux5"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 4"
+      SrcPort		      4
+      DstBlock		      "Mux5"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 4"
+      SrcPort		      5
+      DstBlock		      "Mux5"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 5"
+      SrcPort		      1
+      DstBlock		      "Mux6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 5"
+      SrcPort		      2
+      DstBlock		      "Mux6"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 5"
+      SrcPort		      3
+      DstBlock		      "Mux6"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 5"
+      SrcPort		      4
+      DstBlock		      "Mux6"
+      DstPort		      4
+    }
+    Line {
+      SrcBlock		      "CAN bit-unpacking 5"
+      SrcPort		      5
+      DstBlock		      "Mux6"
+      DstPort		      5
+    }
+    Line {
+      SrcBlock		      "Mux3"
+      SrcPort		      1
+      Points		      [25, 0]
+      Branch {
+	DstBlock		"chuanganqi2"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, -110]
+	DstBlock		"a"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Mux4"
+      SrcPort		      1
+      Points		      [10, 0]
+      Branch {
+	Points			[0, -65]
+	DstBlock		"b"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"chuanganqi3"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Mux5"
+      SrcPort		      1
+      Points		      [10, 0]
+      Branch {
+	Points			[0, -60]
+	DstBlock		"c"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"chuanganqi1"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Mux6"
+      SrcPort		      1
+      Points		      [15, 0]
+      Branch {
+	Points			[0, -55]
+	DstBlock		"d"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"chuanganqi4"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "b"
+      SrcPort		      1
+      DstBlock		      "Terminator1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "c"
+      SrcPort		      1
+      DstBlock		      "Terminator2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "d"
+      SrcPort		      1
+      DstBlock		      "Terminator3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "a"
+      SrcPort		      1
+      DstBlock		      "Terminator4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "constant1"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion"
+      SrcPort		      1
+      Points		      [0, 5]
+      DstBlock		      "CAN bit-packing "
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion5"
+      SrcPort		      1
+      Points		      [10, 0; 0, -25]
+      DstBlock		      "CAN bit-packing "
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant2"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion6"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "CAN bit-packing 1"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion7"
+      SrcPort		      1
+      Points		      [10, 0; 0, -20; 45, 0]
+      DstBlock		      "CAN bit-packing 1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant4"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion8"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion8"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "CAN bit-packing 2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion9"
+      SrcPort		      1
+      Points		      [5, 0; 0, -20; 45, 0]
+      DstBlock		      "CAN bit-packing 2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant5"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion10"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion10"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "CAN bit-packing 3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion11"
+      SrcPort		      1
+      Points		      [0, -20]
+      DstBlock		      "CAN bit-packing 3"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant6"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion12"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion12"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "CAN bit-packing 4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion13"
+      SrcPort		      1
+      Points		      [5, 0; 0, -20; 45, 0]
+      DstBlock		      "CAN bit-packing 4"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant9"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion13"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "constant10"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion14"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion14"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "CAN bit-packing 5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion15"
+      SrcPort		      1
+      Points		      [5, 0; 0, -20; 45, 0]
+      DstBlock		      "CAN bit-packing 5"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant11"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion15"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "constant12"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion16"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion16"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "CAN bit-packing 6"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion17"
+      SrcPort		      1
+      Points		      [5, 0; 0, -20; 45, 0]
+      DstBlock		      "CAN bit-packing 6"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant13"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion17"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "constant14"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion18"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion18"
+      SrcPort		      1
+      DstBlock		      "CAN bit-packing 7"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Data Type Conversion19"
+      SrcPort		      1
+      Points		      [5, 0; 0, -20; 45, 0]
+      DstBlock		      "CAN bit-packing 7"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "constant15"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion19"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Multiport\nSwitch1"
+      SrcPort		      1
+      DstBlock		      "1808Send3"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "baozhuay"
+      SrcPort		      1
+      Points		      [5, 0]
+      Branch {
+	DstBlock		"baozhuaa"
+	DstPort			1
+      }
+      Branch {
+	Labels			[0, 0]
+	Points			[0, -100]
+	DstBlock		"Subsystem2"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "shengjiangy"
+      SrcPort		      1
+      Points		      [5, 0]
+      Branch {
+	DstBlock		"shengjianga"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, -95]
+	DstBlock		"Subsystem3"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "shengjianga"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion9"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "xuanzhuany"
+      SrcPort		      1
+      Points		      [5, 0]
+      Branch {
+	DstBlock		"xuanzhuana"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, -85]
+	DstBlock		"Subsystem1"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "xuanzhuana"
+      SrcPort		      1
+      DstBlock		      "Data Type Conversion11"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Multiport\nSwitch3"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "1808Send5"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Multiport\nSwitch"
+      SrcPort		      1
+      DstBlock		      "1808Send1"
+      DstPort		      1
+    }
+    Line {
+      Labels		      [0, 0]
+      SrcBlock		      "Multiport\nSwitch2"
+      SrcPort		      1
+      Points		      [50, 0]
+      DstBlock		      "1808Send4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing "
+      SrcPort		      1
+      DstBlock		      "Multiport\nSwitch"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 4"
+      SrcPort		      1
+      Points		      [75, 0; 0, -100]
+      DstBlock		      "Multiport\nSwitch"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 1"
+      SrcPort		      1
+      Points		      [125, 0]
+      DstBlock		      "Multiport\nSwitch1"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 5"
+      SrcPort		      1
+      Points		      [60, 0; 0, -95]
+      DstBlock		      "Multiport\nSwitch1"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 2"
+      SrcPort		      1
+      Points		      [55, 0; 0, 20]
+      DstBlock		      "Multiport\nSwitch2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 6"
+      SrcPort		      1
+      Points		      [55, 0; 0, -70]
+      DstBlock		      "Multiport\nSwitch2"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 3"
+      SrcPort		      1
+      DstBlock		      "Multiport\nSwitch3"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CAN bit-packing 7"
+      SrcPort		      1
+      Points		      [110, 0]
+      DstBlock		      "Multiport\nSwitch3"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "baozhuaa"
+      SrcPort		      1
+      Points		      [5, 0]
+      Branch {
+	DstBlock		"Data Type Conversion5"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 235]
+	DstBlock		"Data Type Conversion7"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Subsystem2"
+      SrcPort		      1
+      Points		      [115, 0]
+      Branch {
+	Points			[35, 0]
+	DstBlock		"Multiport\nSwitch"
+	DstPort			1
+      }
+      Branch {
+	Points			[0, 275]
+	DstBlock		"Multiport\nSwitch1"
+	DstPort			1
+      }
+    }
+    Line {
+      SrcBlock		      "Subsystem3"
+      SrcPort		      1
+      Points		      [125, 0]
+      DstBlock		      "Multiport\nSwitch2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Subsystem1"
+      SrcPort		      1
+      Points		      [80, 0; 0, 35]
+      DstBlock		      "Multiport\nSwitch3"
+      DstPort		      1
+    }
+    Annotation {
+      Position		      [804, 1035]
+    }
+    Annotation {
+      Position		      [804, 1260]
+    }
+    Annotation {
+      Position		      [804, 1500]
+    }
+    Annotation {
+      Position		      [804, 1735]
+    }
+    Annotation {
+      Position		      [804, 1145]
+    }
+  }
+}
+MatData {
+  NumRecords		  3
+  DataRecord {
+    Tag			    DataTag2
+    Data		    "  %)30     .    B     8    (     @         %    \"     $    !     0         %  0 $P    $    3    :&%S26"
+    "YH97)I=&5D3W!T:6]N        #@   #     &    \"     D\"        !0    @    !     0    $          @ !  $    "
+  }
+  DataRecord {
+    Tag			    DataTag1
+    Data		    "  %)30     .    B     8    (     @         %    \"     $    !     0         %  0 $P    $    3    :&%S26"
+    "YH97)I=&5D3W!T:6]N        #@   #     &    \"     D\"        !0    @    !     0    $          @ !  $    "
+  }
+  DataRecord {
+    Tag			    DataTag0
+    Data		    "  %)30     .    B     8    (     @         %    \"     $    !     0         %  0 $P    $    3    :&%S26"
+    "YH97)I=&5D3W!T:6]N        #@   #     &    \"     D\"        !0    @    !     0    $          @ !  $    "
+  }
+}
+# Finite State Machines
+#
+#    Stateflow Version 7.5 (R2010a) dated Jul 24 2010, 07:30:36
+#
+#
+
+
+Stateflow {
+  machine {
+    id			    1
+    name		    "Copy_3_of_canceshi"
+    created		    "24-May-2020 11:37:50"
+    isLibrary		    0
+    firstTarget		    2
+    sfVersion		    75014000.000003
+  }
+  target {
+    id			    2
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 3]
+  }
+  target {
+    id			    3
+    name		    "rtw"
+    machine		    1
+    linkNode		    [1 2 0]
+  }
+}

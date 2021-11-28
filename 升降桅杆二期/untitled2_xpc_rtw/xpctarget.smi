@@ -1,0 +1,17 @@
+#include "untitled2.bio"
+#include "untitled2.lbl"
+#include "untitled2.sid"
+
+
+const xpc_SigMappingInfo xpcMMI[] =
+  {
+    {
+      {untitled2_BIO},
+      {untitled2_SID},
+      {untitled2_LBL},
+      "",
+      "untitled2",
+      0,
+      34,
+    },
+  };

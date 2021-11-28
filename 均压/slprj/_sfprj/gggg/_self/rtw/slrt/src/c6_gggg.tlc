@@ -1,0 +1,72 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   9 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_active_c6_gggg"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_c6_gggg"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_enable1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "enable.enable1"\
+    }\
+    ChartData {\
+      Name         "is_active_enable1"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "enable.enable1"\
+    }\
+    ChartData {\
+      Name         "is_enable2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "enable.enable2"\
+    }\
+    ChartData {\
+      Name         "is_active_enable2"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "enable.enable2"\
+    }\
+    ChartData {\
+      Name         "is_enable3"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "enable.enable3"\
+    }\
+    ChartData {\
+      Name         "is_active_enable3"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "enable.enable3"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

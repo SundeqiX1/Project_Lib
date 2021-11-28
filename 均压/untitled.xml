@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      
+                  <block>
+            <blkName>Setup </blkName>
+            <xpcblkName>Setup </xpcblkName>
+            <SLblockPath>untitled/Setup </SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 4]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P13</paramName>
+          <dim>[1, 2]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P15</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P16</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P17</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P18</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P19</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P20</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P21</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P22</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P23</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          <parameter>
+          <paramName>P24</paramName>
+          <dim>[1, 1]</dim>  
+          </parameter>
+          </block>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p1</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p2</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p3</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p4</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p5</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p6</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p7</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 1/p8</sigName>
+              <xpcsigName>CAN bit-unpacking 1/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p1</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p2</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p3</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p4</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p5</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p6</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p7</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>CAN bit-unpacking 2/p8</sigName>
+              <xpcsigName>CAN bit-unpacking 2/p8</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>yalichuanganqi1</sigName>
+              <xpcsigName>yalichuanganqi1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+              <signal>
+              <sigName>yalichuanganqi2</sigName>
+              <xpcsigName>yalichuanganqi2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+            </signal>
+
+</Root>

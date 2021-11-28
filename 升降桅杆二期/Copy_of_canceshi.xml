@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<block>
+		<blkName>constant6</blkName>
+		<xpcblkName>constant6</xpcblkName>
+		<SLblockPath>Copy_of_canceshi/constant6</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>constant9</blkName>
+		<xpcblkName>constant9</xpcblkName>
+		<SLblockPath>Copy_of_canceshi/constant9</SLblockPath>
+		<isSrc>[1 0 1]</isSrc>
+		<parameter>
+			<paramName>Value</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<block>
+		<blkName>Setup </blkName>
+		<xpcblkName>Setup </xpcblkName>
+		<SLblockPath>Copy_of_canceshi/Setup </SLblockPath>
+		<isSrc>[0 0 0]</isSrc>
+		<parameter>
+			<paramName>P1</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P2</paramName>
+			<dim>[1, 4]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P5</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P6</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P13</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P15</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P16</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P17</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P18</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P19</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P20</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P21</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P22</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P23</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+		<parameter>
+			<paramName>P24</paramName>
+			<dim>[1, 1]</dim>
+		</parameter>
+	</block>
+	<signal>
+		<sigName>Data Type Conversion12</sigName>
+		<xpcsigName>Data Type Conversion12</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>Data Type Conversion13</sigName>
+		<xpcsigName>Data Type Conversion13</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>3402Receive </sigName>
+		<xpcsigName>3402Receive </xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-packing 4</sigName>
+		<xpcsigName>CAN bit-packing 4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p1</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p1</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p2</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p2</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p3</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p3</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p4</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p4</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+	<signal>
+		<sigName>CAN bit-unpacking 4/p5</sigName>
+		<xpcsigName>CAN bit-unpacking 4/p5</xpcsigName>
+		<sigWidth>1</sigWidth>
+		<sigDim>[1, 1]</sigDim>
+	</signal>
+</Root>

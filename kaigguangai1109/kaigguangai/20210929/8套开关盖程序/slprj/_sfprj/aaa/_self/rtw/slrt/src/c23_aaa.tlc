@@ -1,0 +1,114 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   16 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_active_c23_aaa"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_c23_aaa"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_kaigai"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.kaigai"\
+    }\
+    ChartData {\
+      Name         "is_active_kaigai"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.kaigai"\
+    }\
+    ChartData {\
+      Name         "is_guangai"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.guangai"\
+    }\
+    ChartData {\
+      Name         "is_active_guangai"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.guangai"\
+    }\
+    ChartData {\
+      Name         "is_songkai"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.songkai"\
+    }\
+    ChartData {\
+      Name         "is_active_songkai"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.songkai"\
+    }\
+    ChartData {\
+      Name         "is_yajin"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.yajin"\
+    }\
+    ChartData {\
+      Name         "is_active_yajin"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.yajin"\
+    }\
+    ChartData {\
+      Name         "is_suoding"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.suoding"\
+    }\
+    ChartData {\
+      Name         "is_active_suoding"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.suoding"\
+    }\
+    ChartData {\
+      Name         "is_jiesuo"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "MANUAL.jiesuo"\
+    }\
+    ChartData {\
+      Name         "is_active_jiesuo"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         "MANUAL.jiesuo"\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
